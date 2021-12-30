@@ -1,13 +1,12 @@
 export function HeroSection() {
   return (
-    <main className="flex flex-col items-center justify-center w-full max-w-5xl mt-20 py-20 gap-y-6">
-      <h1 className="font-black text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center max-w-5xl text-gray-100">
-        The <span className="text-slate-400">Modern-looking</span>,{" "}
-        <span className="text-slate-400">Free</span> and{" "}
-        <span className="text-slate-400">Open-Source</span> CAD/MDT for FiveM.
+    <main className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-20 gap-y-6">
+      <h1 className="max-w-5xl text-2xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl">
+        The Modern-looking, <span className="text-emerald-400">Free</span> and{" "}
+        <span className="text-emerald-400">Open-Source</span> CAD/MDT for FiveM.
       </h1>
 
-      <p className="mt-7 max-w-3xl text-xl font-medium text-center">
+      <p className="max-w-3xl text-base text-center mt-7 md:text-xl">
         SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the wanted
         features to fit your roleplay needs.
       </p>

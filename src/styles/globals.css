@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@300;400;500&display=swap");
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 @tailwind base;
 @tailwind components;
@@ -10,5 +11,5 @@ body {
 }
 
 body {
-  @apply min-h-screen dark:bg-slate-800 text-gray-300;
+  @apply min-h-screen text-gray-300 dark:bg-slate-800;
 }
