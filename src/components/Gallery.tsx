@@ -1,28 +1,34 @@
+import * as React from "react";
 import ImageGallery from "react-image-gallery";
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 
 const images = [
-  {
-    original: "https://cad-docs.netlify.app/cad_settings.png",
-  },
-  {
-    original: "https://cad-docs.netlify.app/admin_dashboard.png",
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-  },
+  "https://cad-docs.netlify.app/admin_dashboard.png",
+  "https://cad-docs.netlify.app/cad_settings.png",
+  "https://cad-docs.netlify.app/citizen_info.png",
+  "https://cad-docs.netlify.app/citizens.png",
+  "https://cad-docs.netlify.app/create_citizen.png",
+  "https://cad-docs.netlify.app/dispatch.png",
+  "https://cad-docs.netlify.app/live_map.png",
+  "https://cad-docs.netlify.app/ems_fd_dashboard.png",
+  "https://cad-docs.netlify.app/leo.png",
+  "https://cad-docs.netlify.app/leo2.png",
+  "https://cad-docs.netlify.app/manage_users.png",
+  "https://cad-docs.netlify.app/manage_values.png",
+  "https://cad-docs.netlify.app/my_officers.png",
+  "https://cad-docs.netlify.app/tow_dashboard.png",
 ];
 
 export function Gallery() {
   return (
-    <section className="flex flex-col items-center justify-center w-full max-w-5xl pb-10 mt-5">
+    <section className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
       <h1 className="max-w-5xl text-2xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl">
         Gallery
       </h1>
 
       <div className="mt-10 group">
         <ImageGallery
-          items={images}
+          items={images.map((v) => ({ original: v }))}
           showFullscreenButton={false}
           showPlayButton={false}
           showBullets={false}
@@ -47,7 +53,11 @@ function Arrow({ dir, onClick }: { dir: "left" | "right"; onClick: any }) {
       ].join(" ")}
       onClick={onClick}
     >
-      {dir === "left" ? <ArrowLeft width={25} height={25} /> : <ArrowRight width={25} height={25} />}
+      {dir === "left" ? (
+        <ArrowLeft width={25} height={25} />
+      ) : (
+        <ArrowRight width={25} height={25} />
+      )}
     </button>
   );
 }

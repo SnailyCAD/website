@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { FeaturesSection } from "../components/FeaturesSection";
 import { Gallery } from "../components/Gallery";
 import { HeroSection } from "../components/HeroSection";
 import { Nav } from "../components/Nav";
@@ -16,6 +17,7 @@ export default function Home() {
           <Nav />
 
           <HeroSection />
+          <FeaturesSection />
           <ReviewsSection />
           <Gallery />
         </div>

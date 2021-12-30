@@ -50,6 +50,32 @@ export const REVIEWS: Review[] = [
       "https://cdn.discordapp.com/avatars/323231395981819904/a_edeaf26508ab76083ca891f643154ba6.webp?size=128",
   },
   {
+    name: "Whitigol",
+    text: (
+      <>
+        <span>
+          {
+            "SnailyCAD has truly transformed my online CAD/MDT experience. Being free, open-source, well documented, and self-hosted, makes it the perfect tool to use."
+          }
+        </span>
+        <span className="block w-full my-3" />
+        <span>
+          {
+            "The system is easy to use, fairly simple to setup, and the community is phenomenal at providing support to get you the help you need. Bugs are quickly handled as soon as they are reported, and it's constantly being improved, with new features added, and bug's patched."
+          }
+        </span>
+        <span className="block w-full my-3" />
+        <span>
+          {
+            "With it's engaging User Interface, and all-around great features. I would definitely recommend using SnailyCAD!"
+          }
+        </span>
+      </>
+    ),
+    imageURL:
+      "https://cdn.discordapp.com/avatars/162943529872523264/1605f93b5c3a7701862d003a329b3c6f.webp?size=128",
+  },
+  {
     name: "Cobra |Strike-Modifications|",
     text: "I started using SnailyCAD about 6 or 7 months ago I'm very impressed with the layout and how everything works and the support. When people ask about a cad I have started to send them here because this is worth it more then a lot of other cads I have seen",
     imageURL:
