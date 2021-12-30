@@ -43,12 +43,13 @@ export function Gallery() {
 }
 
 function Arrow({ dir, onClick }: { dir: "left" | "right"; onClick: any }) {
-  const position = dir === "left" ? "left-0" : "right-0";
+  const position = dir === "left" ? "left-2" : "right-2";
 
   return (
     <button
       className={[
-        "opacity-0 flex group-hover:opacity-100 absolute top-0 w-8 h-full z-50 bg-black/20 transition-all flex-col justify-center items-center",
+        "opacity-0 group-hover:opacity-100 transition-all absolute top-1/2 w-12 h-12 z-50 bg-slate-700 rounded-full grid place-items-center shadow-lg shadow-slate-700/30",
+        // "opacity-0 flex group-hover:opacity-100 absolute top-0 w-8 h-full z-50 bg-black/20 transition-all flex-col justify-center items-center",
         position,
       ].join(" ")}
       onClick={onClick}
