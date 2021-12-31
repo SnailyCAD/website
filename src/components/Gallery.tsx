@@ -22,7 +22,7 @@ const images = [
 export function Gallery() {
   return (
     <section className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
-      <h1 className="max-w-5xl text-2xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl">
+      <h1 className="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl">
         Gallery
       </h1>
 
@@ -49,7 +49,6 @@ function Arrow({ dir, onClick }: { dir: "left" | "right"; onClick: any }) {
     <button
       className={[
         "opacity-0 group-hover:opacity-100 transition-all absolute top-1/2 w-12 h-12 z-50 bg-slate-700 rounded-full grid place-items-center shadow-lg shadow-slate-700/30",
-        // "opacity-0 flex group-hover:opacity-100 absolute top-0 w-8 h-full z-50 bg-black/20 transition-all flex-col justify-center items-center",
         position,
       ].join(" ")}
       onClick={onClick}

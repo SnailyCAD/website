@@ -3,7 +3,7 @@ import { DISCORD_URL } from "./Nav";
 
 export function ReviewsSection() {
   return (
-    <section className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
+    <section id="reviews" className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
       <h1 className="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl text-slate-100/90">
         What people are saying
       </h1>

@@ -13,7 +13,7 @@ const FEATURES = [
   },
   {
     name: "Great Support",
-    text: "We try to help as much as we can. Bugs and feature requests are handled with care and speediness.",
+    text: "We try to help as much as we can. Bugs and feature requests are handled with care and speed.",
   },
   {
     name: "Constant updates",
@@ -27,7 +27,7 @@ const FEATURES = [
 
 export function FeaturesSection() {
   return (
-    <section className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
+    <section id="features" className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
       <h1 className="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl">
         Top Features
       </h1>
