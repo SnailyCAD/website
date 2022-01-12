@@ -3,7 +3,10 @@ import { DISCORD_URL } from "./Nav";
 
 export function ReviewsSection() {
   return (
-    <section id="reviews" className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
+    <section
+      id="reviews"
+      className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5"
+    >
       <h1 className="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl text-slate-100/90">
         What people are saying
       </h1>
@@ -19,14 +22,18 @@ export function ReviewsSection() {
             key={review.name}
           >
             <header className="flex items-center gap-4 mb-4">
-              <img
-                draggable={false}
-                className="rounded-full"
-                width={40}
-                height={40}
-                src={review.imageURL}
-              />
-              <h3 className="text-lg font-medium text-gray-200">{review.name}</h3>
+              {review.image ? (
+                review.image
+              ) : (
+                <img
+                  draggable={false}
+                  className="rounded-full"
+                  width={40}
+                  height={40}
+                  src={review.imageURL}
+                />
+              )}
+              <h3 className="text-lg font-semibold text-gray-200">{review.name}</h3>
             </header>
 
             <p>{review.text}</p>

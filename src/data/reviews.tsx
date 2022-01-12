@@ -1,10 +1,29 @@
 import * as React from "react";
+import Image, { ImageProps } from "next/image";
+
+import AndyImage from "public/reviews/andy.png";
+import WhitigolImage from "public/reviews/whitigol.png";
+import CobraImage from "public/reviews/cobra.png";
+import JxckImage from "public/reviews/jxck.png";
+import MrGameEagleImage from "public/reviews/mr_game_eagle.png";
+import TovadeImage from "public/reviews/tovade.png";
 
 interface Review {
   name: string;
   text: React.ReactNode | string;
-  imageURL: string;
+  imageURL?: string;
+  image?: React.ReactNode;
 }
+
+const defaultImageProps: Partial<ImageProps> = {
+  width: 40,
+  height: 40,
+  objectFit: "cover",
+  draggable: false,
+  className: "rounded-full",
+  loading: "lazy",
+  placeholder: "blur",
+};
 
 export const REVIEWS: Review[] = [
   {
@@ -24,8 +43,7 @@ export const REVIEWS: Review[] = [
         </span>
       </>
     ),
-    imageURL:
-      "https://cdn.discordapp.com/avatars/528317411053797386/8f216ebcb1ad7c9ef315cdd58955d6ad.webp?size=128",
+    image: <Image {...defaultImageProps} src={MrGameEagleImage} />,
   },
   {
     name: "jxck",
@@ -46,8 +64,7 @@ export const REVIEWS: Review[] = [
         <span>Would highly recommend using SnailyCAD!</span>
       </>
     ),
-    imageURL:
-      "https://cdn.discordapp.com/avatars/323231395981819904/a_edeaf26508ab76083ca891f643154ba6.webp?size=128",
+    image: <Image {...defaultImageProps} src={JxckImage} />,
   },
   {
     name: "Whitigol",
@@ -72,25 +89,21 @@ export const REVIEWS: Review[] = [
         </span>
       </>
     ),
-    imageURL:
-      "https://cdn.discordapp.com/avatars/162943529872523264/1605f93b5c3a7701862d003a329b3c6f.webp?size=128",
+    image: <Image {...defaultImageProps} src={WhitigolImage} />,
   },
   {
     name: "Cobra |Strike-Modifications|",
     text: "I started using SnailyCAD about 6 or 7 months ago I'm very impressed with the layout and how everything works and the support. When people ask about a cad I have started to send them here because this is worth it more then a lot of other cads I have seen",
-    imageURL:
-      "https://cdn.discordapp.com/avatars/739721556145733685/d3bf1aeb6e2eb2893a80850c4da3a9d9.webp?size=128",
+    image: <Image {...defaultImageProps} src={CobraImage} />,
   },
   {
     name: "Andy",
     text: "This is the best cad out there, it's free, it looks good, it has very good feature, and reported bugs are fixed very quickly.",
-    imageURL:
-      "https://cdn.discordapp.com/avatars/243440367066677251/69541bc6f3ed949f9afe50610e112085.webp?size=128",
+    image: <Image {...defaultImageProps} src={AndyImage} />,
   },
   {
     name: "Tovade",
     text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
-    imageURL:
-      "https://cdn.discordapp.com/avatars/556218750337286145/4926ee5bead64b5148b2e002b1d6515d.webp?size=128",
+    image: <Image {...defaultImageProps} src={TovadeImage} />,
   },
 ];

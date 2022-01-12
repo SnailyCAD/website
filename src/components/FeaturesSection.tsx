@@ -39,7 +39,7 @@ export function FeaturesSection() {
             key={feature.name}
           >
             <header className="flex items-center gap-4 mb-4">
-              <h3 className="text-lg font-medium text-gray-200">{feature.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-200">{feature.name}</h3>
             </header>
 
             <p>{feature.text}</p>

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Footer } from "src/components/Footer";
 import { FeaturesSection } from "../components/FeaturesSection";
 import { Gallery } from "../components/Gallery";
 import { HeroSection } from "../components/HeroSection";
@@ -20,6 +21,8 @@ export default function Home() {
           <FeaturesSection />
           <ReviewsSection />
           <Gallery />
+
+          <Footer />
         </div>
       </div>
     </div>
