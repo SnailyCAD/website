@@ -27,7 +27,10 @@ const FEATURES = [
 
 export function FeaturesSection() {
   return (
-    <section id="features" className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
+    <section
+      id="features"
+      className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5"
+    >
       <h1 className="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl">
         Top Features
       </h1>

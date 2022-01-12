@@ -2,7 +2,8 @@ export function HeroSection() {
   return (
     <main className="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-20 gap-y-6">
       <h1 className="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl">
-        The <span className="text-emerald-400">Modern-looking</span>, <span className="text-emerald-400">Free</span> and{" "}
+        The <span className="text-emerald-400">Modern-looking</span>,{" "}
+        <span className="text-emerald-400">Free</span> and{" "}
         <span className="text-emerald-400">Open-Source</span> CAD/MDT for FiveM.
       </h1>
 
@@ -19,7 +20,7 @@ export function HeroSection() {
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-      ></iframe>
+      />
     </main>
   );
 }

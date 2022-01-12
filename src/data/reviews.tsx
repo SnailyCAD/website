@@ -11,8 +11,7 @@ import TovadeImage from "public/reviews/tovade.png";
 interface Review {
   name: string;
   text: React.ReactNode | string;
-  imageURL?: string;
-  image?: React.ReactNode;
+  image: React.ReactNode;
 }
 
 const defaultImageProps: Partial<ImageProps> = {

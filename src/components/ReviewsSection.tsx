@@ -22,17 +22,7 @@ export function ReviewsSection() {
             key={review.name}
           >
             <header className="flex items-center gap-4 mb-4">
-              {review.image ? (
-                review.image
-              ) : (
-                <img
-                  draggable={false}
-                  className="rounded-full"
-                  width={40}
-                  height={40}
-                  src={review.imageURL}
-                />
-              )}
+              {review.image}
               <h3 className="text-lg font-semibold text-gray-200">{review.name}</h3>
             </header>
 

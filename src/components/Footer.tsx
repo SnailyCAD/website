@@ -14,5 +14,7 @@ export function Footer() {
 }
 
 function FooterLink(props: JSX.IntrinsicElements["a"]) {
-  return <a {...props} className="underline cursor-pointer" target="_blank" rel="noreferrer noopener" />;
+  return (
+    <a {...props} className="underline cursor-pointer" target="_blank" rel="noreferrer noopener" />
+  );
 }
