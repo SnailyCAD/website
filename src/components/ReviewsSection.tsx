@@ -23,7 +23,7 @@ export function ReviewsSection() {
           >
             <header className="flex items-center gap-4 mb-4">
               {review.image}
-              <h3 className="text-lg font-semibold text-gray-200">{review.name}</h3>
+              <h2 className="text-lg font-semibold text-gray-200">{review.name}</h2>
             </header>
 
             <p>{review.text}</p>

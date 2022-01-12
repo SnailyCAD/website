@@ -33,14 +33,14 @@ export function Nav() {
         <li>
           <Link href={GITHUB_URL}>
             <a className="font-medium transition-colors hover:text-white">
-              <Github width={20} height={20} />
+              <Github aria-label="GitHub Repository" width={20} height={20} />
             </a>
           </Link>
         </li>
         <li>
           <Link href={DISCORD_URL}>
             <a className="font-medium transition-colors hover:text-white">
-              <Discord width={20} height={20} />
+              <Discord aria-label="Discord Server" width={20} height={20} />
             </a>
           </Link>
         </li>

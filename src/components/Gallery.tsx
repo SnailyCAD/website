@@ -54,9 +54,9 @@ function Arrow({ dir, onClick }: { dir: "left" | "right"; onClick: any }) {
       onClick={onClick}
     >
       {dir === "left" ? (
-        <ArrowLeft width={25} height={25} />
+        <ArrowLeft aria-label="Previous Image" width={25} height={25} />
       ) : (
-        <ArrowRight width={25} height={25} />
+        <ArrowRight aria-label="Next Image" width={25} height={25} />
       )}
     </button>
   );

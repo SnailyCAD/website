@@ -42,7 +42,9 @@ export const REVIEWS: Review[] = [
         </span>
       </>
     ),
-    image: <Image {...defaultImageProps} src={MrGameEagleImage} />,
+    image: (
+      <Image alt="Mr. Game Eagle's Profile Picture" {...defaultImageProps} src={MrGameEagleImage} />
+    ),
   },
   {
     name: "jxck",
@@ -63,7 +65,7 @@ export const REVIEWS: Review[] = [
         <span>Would highly recommend using SnailyCAD!</span>
       </>
     ),
-    image: <Image {...defaultImageProps} src={JxckImage} />,
+    image: <Image alt="jxck's Profile Picture" {...defaultImageProps} src={JxckImage} />,
   },
   {
     name: "Whitigol",
@@ -88,21 +90,21 @@ export const REVIEWS: Review[] = [
         </span>
       </>
     ),
-    image: <Image {...defaultImageProps} src={WhitigolImage} />,
+    image: <Image alt="Whitigol's Profile Picture" {...defaultImageProps} src={WhitigolImage} />,
   },
   {
     name: "Cobra |Strike-Modifications|",
     text: "I started using SnailyCAD about 6 or 7 months ago I'm very impressed with the layout and how everything works and the support. When people ask about a cad I have started to send them here because this is worth it more then a lot of other cads I have seen",
-    image: <Image {...defaultImageProps} src={CobraImage} />,
+    image: <Image alt="Cobra's Profile Picture" {...defaultImageProps} src={CobraImage} />,
   },
   {
     name: "Andy",
     text: "This is the best cad out there, it's free, it looks good, it has very good feature, and reported bugs are fixed very quickly.",
-    image: <Image {...defaultImageProps} src={AndyImage} />,
+    image: <Image alt="Andy's Profile Picture" {...defaultImageProps} src={AndyImage} />,
   },
   {
     name: "Tovade",
     text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
-    image: <Image {...defaultImageProps} src={TovadeImage} />,
+    image: <Image alt="Tovade's Profile Picture" {...defaultImageProps} src={TovadeImage} />,
   },
 ];
