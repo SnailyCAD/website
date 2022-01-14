@@ -29,7 +29,7 @@ export function Nav() {
         </li>
       </ul>
 
-      <ul className="items-center hidden gap-x-3 sm:flex">
+      <ul className="items-center gap-x-3 flex">
         <li>
           <Link href={GITHUB_URL}>
             <a className="font-medium transition-colors hover:text-white">

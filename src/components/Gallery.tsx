@@ -28,7 +28,8 @@ export function Gallery() {
 
       <div className="mt-10 group">
         <ImageGallery
-          items={images.map((v) => ({ original: v }))}
+          lazyLoad
+          items={images.map((v) => ({ originalHeight: 810, originalWidth: 1200, original: v }))}
           showFullscreenButton={false}
           showPlayButton={false}
           showBullets={false}
