@@ -9,7 +9,7 @@ import { ReviewsSection } from "../components/ReviewsSection";
 
 export default function Home() {
   return (
-    <div className="antialiased">
+    <div>
       <Head>
         <title>SnailyCAD - The Free and open-source CAD/MDT for FiveM</title>
         <meta
@@ -25,7 +25,7 @@ export default function Home() {
         />
       </Head>
 
-      <div className="flex flex-col items-center justify-center w-full h-full px-3 md:p-0">
+      <div className="antialiased flex flex-col items-center justify-center w-full h-full px-4 lg:px-0">
         <div className="w-full max-w-5xl">
           <Nav />
 
