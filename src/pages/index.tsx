@@ -11,10 +11,17 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
         <title>SnailyCAD - The Free and open-source CAD/MDT for FiveM</title>
         <meta
           name="description"
           content="SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the wanted features to fit your roleplay needs."
+        />
+        <meta
+          name="keywords"
+          content="CAD, MDT, fivem, leo, open source, roleplay, law enforcement, fire department, ems, bleeter, free, customizable"
         />
         <OGP
           url="https://snailycad.caspertheghost.me"
@@ -23,6 +30,8 @@ export default function Home() {
           siteName="snailycad.caspertheghost.me"
           image="http://example.com/cover.jpg"
         />
+
+        <link rel="canonical" href="https://snailycad.caspertheghost.me" />
       </Head>
 
       <div className="antialiased flex flex-col items-center justify-center w-full h-full px-4 lg:px-0">
