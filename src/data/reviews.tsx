@@ -1,12 +1,12 @@
 import * as React from "react";
 import Image, { ImageProps } from "next/image";
 
-import AndyImage from "public/reviews/andy.avif";
-import WhitigolImage from "public/reviews/whitigol.avif";
-import CobraImage from "public/reviews/cobra.avif";
-import JxckImage from "public/reviews/jxck.avif";
-import MrGameEagleImage from "public/reviews/mr_game_eagle.avif";
-import TovadeImage from "public/reviews/tovade.avif";
+import AndyImage from "public/reviews/andy.webp";
+import WhitigolImage from "public/reviews/whitigol.webp";
+import CobraImage from "public/reviews/cobra.webp";
+import JxckImage from "public/reviews/jxck.webp";
+import MrGameEagleImage from "public/reviews/mr_game_eagle.webp";
+import TovadeImage from "public/reviews/tovade.webp";
 
 interface Review {
   name: string;
