@@ -20,6 +20,7 @@
     site: "@casper124578",
     title: PAGE_TITLE,
     description: PAGE_DESC,
+    card: "summary",
   }}
   openGraph={{
     title: PAGE_TITLE,
