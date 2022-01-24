@@ -45,7 +45,7 @@
 
   <div class="mt-10 w-full">
     <Swiper loop spaceBetween={25} slidesPerView={1.5}>
-      {#each images as image}
+      {#each images as image, idx}
         <SwiperSlide width={700}>
           <img
             class="select-none"
@@ -54,7 +54,7 @@
             alt={image.toString()}
             width="700px"
             height="100%"
-            loading="lazy"
+            loading={idx === 0 ? "eager" : "lazy"}
           />
         </SwiperSlide>
       {/each}
