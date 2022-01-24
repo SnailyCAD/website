@@ -3,20 +3,20 @@
   import { Swiper, SwiperSlide } from "swiper/svelte";
   import "swiper/css/bundle";
 
-  import admin_dashboard from "../images/admin_dashboard.png";
-  import cad_settings from "../images/cad_settings.png";
-  import citizen_info from "../images/citizen_info.png";
-  import citizens from "../images/citizens.png";
-  import create_citizen from "../images/create_citizen.png";
-  import dispatch from "../images/dispatch.png";
-  import live_map from "../images/live_map.png";
-  import ems_fd_dashboard from "../images/ems_fd_dashboard.png";
-  import leo from "../images/leo.png";
-  import leo2 from "../images/leo2.png";
-  import manage_users from "../images/manage_users.png";
-  import manage_values from "../images/manage_values.png";
-  import my_officers from "../images/my_officers.png";
-  import tow_dashboard from "../images/tow_dashboard.png";
+  import admin_dashboard from "../images/admin_dashboard.webp";
+  import cad_settings from "../images/cad_settings.webp";
+  import citizen_info from "../images/citizen_info.webp";
+  import citizens from "../images/citizens.webp";
+  import create_citizen from "../images/create_citizen.webp";
+  import dispatch from "../images/dispatch.webp";
+  import live_map from "../images/live_map.webp";
+  import ems_fd_dashboard from "../images/ems_fd_dashboard.webp";
+  import leo from "../images/leo.webp";
+  import leo2 from "../images/leo2.webp";
+  import manage_users from "../images/manage_users.webp";
+  import manage_values from "../images/manage_values.webp";
+  import my_officers from "../images/my_officers.webp";
+  import tow_dashboard from "../images/tow_dashboard.webp";
 
   const images = [
     admin_dashboard,
@@ -48,6 +48,7 @@
       {#each images as image}
         <SwiperSlide width={700}>
           <img
+
             class="select-none"
             draggable="false"
             src={image}

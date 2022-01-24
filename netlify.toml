@@ -1,0 +1,10 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    referrer-policy = "no-referrer"
+    x-content-type-options = "nosniff"
+    cache-control = "s-maxage=604800, stale-while-revalidate"
+    permissions-policy = "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(),interest-cohort=()"
+    Accept-Encoding = "gzip, compress, br"
