@@ -54,6 +54,7 @@
             alt={image.toString()}
             width="700px"
             height="100%"
+            loading="lazy"
           />
         </SwiperSlide>
       {/each}
