@@ -20,7 +20,15 @@
         class="cursor-default relative p-6 transition-transform rounded-md shadow-lg bg-slate-700 hover:-translate-y-0.5"
       >
         <header class="flex items-center gap-4 mb-4">
-          <!-- {review.image} -->
+          <img
+            loading="lazy"
+            width={40}
+            height={40}
+            draggable="false"
+            class="rounded-full object-cover"
+            src={review.image}
+            alt={review.image}
+          />
           <h2 class="text-lg font-semibold text-gray-200">{review.name}</h2>
         </header>
 

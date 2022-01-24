@@ -3,20 +3,20 @@
   import { Swiper, SwiperSlide } from "swiper/svelte";
   import "swiper/css/bundle";
 
-  import admin_dashboard from "../images/admin_dashboard.webp";
-  import cad_settings from "../images/cad_settings.webp";
-  import citizen_info from "../images/citizen_info.webp";
-  import citizens from "../images/citizens.webp";
-  import create_citizen from "../images/create_citizen.webp";
-  import dispatch from "../images/dispatch.webp";
-  import live_map from "../images/live_map.webp";
-  import ems_fd_dashboard from "../images/ems_fd_dashboard.webp";
-  import leo from "../images/leo.webp";
-  import leo2 from "../images/leo2.webp";
-  import manage_users from "../images/manage_users.webp";
-  import manage_values from "../images/manage_values.webp";
-  import my_officers from "../images/my_officers.webp";
-  import tow_dashboard from "../images/tow_dashboard.webp";
+  import admin_dashboard from "../images/cad/admin_dashboard.webp";
+  import cad_settings from "../images/cad/cad_settings.webp";
+  import citizen_info from "../images/cad/citizen_info.webp";
+  import citizens from "../images/cad/citizens.webp";
+  import create_citizen from "../images/cad/create_citizen.webp";
+  import dispatch from "../images/cad/dispatch.webp";
+  import live_map from "../images/cad/live_map.webp";
+  import ems_fd_dashboard from "../images/cad/ems_fd_dashboard.webp";
+  import leo from "../images/cad/leo.webp";
+  import leo2 from "../images/cad/leo2.webp";
+  import manage_users from "../images/cad/manage_users.webp";
+  import manage_values from "../images/cad/manage_values.webp";
+  import my_officers from "../images/cad/my_officers.webp";
+  import tow_dashboard from "../images/cad/tow_dashboard.webp";
 
   const images = [
     admin_dashboard,
