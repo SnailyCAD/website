@@ -5,9 +5,7 @@
 </script>
 
 <header class="sticky top-0 z-50">
-  <nav
-    class="flex items-center justify-between w-full h-20 max-w-5xl mb-10 bg-slate-800"
-  >
+  <nav class="flex items-center justify-between w-full h-20 max-w-5xl mb-10 bg-slate-800">
     <h1 class="text-2xl font-bold text-white">SnailyCAD</h1>
 
     <ul class="hidden gap-x-5 sm:flex">

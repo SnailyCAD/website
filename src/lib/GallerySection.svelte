@@ -48,7 +48,6 @@
       {#each images as image}
         <SwiperSlide width={700}>
           <img
-
             class="select-none"
             draggable="false"
             src={image}

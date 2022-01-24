@@ -1,5 +1,4 @@
 <script context="module" lang="ts">
-
   import AndyImage from "../images/reviews/andy.webp";
   import WhitigolImage from "../images/reviews/whitigol.webp";
   import CobraImage from "../images/reviews/cobra.webp";
