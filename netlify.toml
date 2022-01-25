@@ -8,6 +8,7 @@
     cache-control = "s-maxage=604800, stale-while-revalidate"
     permissions-policy = "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(),interest-cohort=()"
     Accept-Encoding = "gzip, compress, br"
+    Cache-Control = "max-age=31536000"
 
 [build]
   command = "npm run build"
