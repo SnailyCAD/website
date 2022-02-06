@@ -6,9 +6,7 @@
   <h1
     class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl"
   >
-    The <span class="text-emerald-400">Modern-looking</span>,{" "}
-    <span class="text-emerald-400">Free</span> and{" "}
-    <span class="text-emerald-400">Open-Source</span> CAD/MDT for FiveM.
+    Modern-looking, Free and Open-Source CAD/MDT for FiveM.
   </h1>
 
   <p class="max-w-3xl text-base text-center mt-7 md:text-xl">

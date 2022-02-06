@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-padding-top: 2rem;
+}
+
 html,
 body {
   font-family: "Inter", sans-serif;
