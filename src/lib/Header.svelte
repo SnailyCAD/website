@@ -23,8 +23,8 @@
   }
 </script>
 
-<header class="fixed left-0 right-0 top-0 z-50 px-3 lg:px-0 h-20">
-  <nav bind:this={nav} class="flex items-center justify-center w-full h-full">
+<header class="fixed left-0 right-0 top-0 z-50 h-20">
+  <nav bind:this={nav} class="px-3 lg:px-0 flex items-center justify-center w-full h-full">
     <div class="flex items-center justify-between h-full w-full max-w-5xl">
       <h1 class="text-2xl font-bold text-white">
         <a href="/">SnailyCAD</a>
