@@ -1,8 +1,9 @@
 <script lang="ts">
   import LiteYouTube from "svelte-lite-youtube-embed";
+  import { DISCORD_URL, DOCS_URL } from "./Header.svelte";
 </script>
 
-<section class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-20 gap-y-6">
+<section class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-36 gap-y-6">
   <h1
     class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl"
   >
@@ -20,5 +21,22 @@
       playLabel="SnailyCADv4 Quick Walk-through - 2022"
       params="controls=1"
     />
+  </div>
+
+  <div class="flex gap-3">
+    <a
+      target="_blank"
+      class="hover:bg-slate-700/80 transition-colors bg-slate-700 shadow-md text-[1.1em] font-medium p-2.5 px-5 rounded-md"
+      href={DOCS_URL}
+    >
+      Documentation
+    </a>
+    <a
+      target="_blank"
+      class="hover:bg-slate-700/80 bg-slate-700 shadow-md transition-colors text-[1.1em] font-medium p-2.5 px-5 rounded-md"
+      href={DISCORD_URL}
+    >
+      Discord
+    </a>
   </div>
 </section>
