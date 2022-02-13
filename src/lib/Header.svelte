@@ -10,6 +10,7 @@
   let nav: HTMLElement;
 
   onMount(() => {
+    handleScroll();
     document.addEventListener("scroll", handleScroll);
 
     return () => {
