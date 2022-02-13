@@ -1,5 +1,5 @@
 <script lang="ts">
-  // Import Swiper Svelte components
+  import { A11y, Keyboard, Lazy } from "swiper";
   import { Swiper, SwiperSlide } from "swiper/svelte";
   import "swiper/css/bundle";
 
@@ -49,7 +49,16 @@
   </p>
 
   <div class=" w-full">
-    <Swiper loop spaceBetween={25} slidesPerView={1.5}>
+    <Swiper
+      keyboard
+      preloadImages
+      a11y={{ enabled: true }}
+      lazy
+      modules={[Keyboard, Lazy, A11y]}
+      loop
+      spaceBetween={25}
+      slidesPerView={1.5}
+    >
       {#each images as image, idx}
         <SwiperSlide width={700}>
           <img

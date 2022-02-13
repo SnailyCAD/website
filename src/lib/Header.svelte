@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-  export const DOCS_URL = "https://cad-docs.netlify.app";
+  export const DOCS_URL = "https://cad-docs.caspertheghost.me/docs/intro";
   export const GITHUB_URL = "https://github.com/snailycad/snaily-cadv4";
   export const DISCORD_URL = "https://discord.gg/eGnrPqEH7U";
 </script>
