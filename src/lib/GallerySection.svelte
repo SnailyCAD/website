@@ -9,7 +9,7 @@
   import citizens from "../images/cad/citizens.webp";
   import create_citizen from "../images/cad/create_citizen.webp";
   import dispatch from "../images/cad/dispatch.webp";
-  import live_map from "../images/cad/live_map.webp";
+  import live_map from "../images/cad/live_map.jpg";
   import ems_fd_dashboard from "../images/cad/ems_fd_dashboard.webp";
   import leo from "../images/cad/leo.webp";
   import leo2 from "../images/cad/leo2.webp";
@@ -17,6 +17,9 @@
   import manage_values from "../images/cad/manage_values.webp";
   import my_officers from "../images/cad/my_officers.webp";
   import tow_dashboard from "../images/cad/tow_dashboard.webp";
+  import incidents from "../images/cad/incidents.webp";
+  import incidents2 from "../images/cad/incidents2.webp";
+  import manage_units from "../images/cad/manage_units.webp";
 
   const images = [
     admin_dashboard,
@@ -33,6 +36,9 @@
     manage_values,
     my_officers,
     tow_dashboard,
+    incidents,
+    incidents2,
+    manage_units,
   ];
 </script>
 
