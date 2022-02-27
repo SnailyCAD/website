@@ -54,7 +54,7 @@
     features that can't be shown below.
   </p>
 
-  <div class=" w-full">
+  <div class="w-full">
     <Swiper
       keyboard
       preloadImages

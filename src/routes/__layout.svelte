@@ -8,14 +8,14 @@
   const PAGE_TITLE = "SnailyCAD - The Free and open-source CAD/MDT for FiveM";
   const PAGE_URL = "https://snailycad.caspertheghost.me";
   const PAGE_DESC =
-    "SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the wanted features to fit your roleplay needs.";
+    "SnailyCAD is a free and open-source CAD/MDT system with all the wanted features to fit your roleplay needs.";
 </script>
 
 <SvelteSeo
   title={PAGE_TITLE}
   description={PAGE_DESC}
   canonical={PAGE_URL}
-  keywords="CAD, MDT, fivem, leo, open source, roleplay, law enforcement, fire department, ems, bleeter, free, customizable"
+  keywords="CAD, MDT, CAD/MDT system, free CAD/MDT fivem, open source, roleplay, law enforcement, dispatching customizable"
   twitter={{
     site: "@casper124578",
     title: PAGE_TITLE,
