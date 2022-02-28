@@ -30,6 +30,10 @@
   }}
 />
 
+<svelte:head>
+  <link rel="icon" href="/logo.svg" />
+</svelte:head>
+
 <Header />
 
 <main>
