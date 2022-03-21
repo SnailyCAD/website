@@ -5,6 +5,7 @@
   import JxckImage from "../images/reviews/jxck.webp";
   import MrGameEagleImage from "../images/reviews/mr_game_eagle.webp";
   import TovadeImage from "../images/reviews/tovade.webp";
+  import DalraeImage from "../images/reviews/dalrae.webp";
 
   export const REVIEWS: { name: string; text: string; image: string }[] = [
     {
@@ -62,6 +63,26 @@
       name: "Tovade",
       text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
       image: TovadeImage,
+    },
+    {
+      name: "Dalrae",
+      text: `
+      <p>
+      The CAD is extremely customizable, fast and responsive. It uses no third party services for it
+      to function properly, meaning that everything it does depends on your server's connection -
+      not some other service.
+    </p>
+    <br className="block w-full my-1" />
+    <p>
+      The developer is very fast at responding to any issues, and promptly fixes and helps guide
+      user's through any issues they may experience
+    </p>
+    <br className="block w-full my-1" />
+    <p>
+      It is completely open source, and has extremely thorough documentation for the api, meaning
+      that you're able to integrate it with your server very easily.
+    </p>`,
+      image: DalraeImage,
     },
   ];
 </script>
