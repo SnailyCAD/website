@@ -4,6 +4,7 @@
   import "swiper/css/bundle";
 
   import admin_dashboard from "../images/cad/admin_dashboard.webp";
+  import user_perms from "../images/cad/perms.webp";
   import cad_settings from "../images/cad/cad_settings.webp";
   import citizen_info from "../images/cad/citizen_info.webp";
   import citizens from "../images/cad/citizens.webp";
@@ -12,7 +13,6 @@
   import live_map from "../images/cad/live_map.jpg";
   import ems_fd_dashboard from "../images/cad/ems_fd_dashboard.webp";
   import leo from "../images/cad/leo.webp";
-  import leo2 from "../images/cad/leo2.webp";
   import manage_users from "../images/cad/manage_users.webp";
   import manage_values from "../images/cad/manage_values.webp";
   import my_officers from "../images/cad/my_officers.webp";
@@ -23,6 +23,7 @@
 
   const images = [
     admin_dashboard,
+    user_perms,
     cad_settings,
     citizen_info,
     citizens,
@@ -31,7 +32,6 @@
     live_map,
     ems_fd_dashboard,
     leo,
-    leo2,
     manage_users,
     manage_values,
     my_officers,
