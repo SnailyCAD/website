@@ -59,5 +59,8 @@
     {/each}
   </div>
 
-  <p class="italic font-medium mt-3">And many, many more features!</p>
+  <a
+    href="https://cad-docs.caspertheghost.me/docs/features"
+    class="italic font-medium mt-3 underline">And many, many more features!</a
+  >
 </section>

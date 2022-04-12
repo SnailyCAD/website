@@ -5,7 +5,7 @@
   import Header from "$lib/Header.svelte";
   import "../app.css";
 
-  const PAGE_TITLE = "SnailyCAD - The Free and open-source CAD/MDT for FiveM";
+  const PAGE_TITLE = "SnailyCAD - Free and open-source CAD/MDT for FiveM";
   const PAGE_URL = "https://snailycad.caspertheghost.me";
   const PAGE_DESC =
     "SnailyCAD is a free and open-source CAD/MDT system with all the wanted features to fit your roleplay needs.";
@@ -15,9 +15,8 @@
   title={PAGE_TITLE}
   description={PAGE_DESC}
   canonical={PAGE_URL}
-  keywords="CAD, MDT, CAD/MDT system, free CAD/MDT fivem, open source, roleplay, law enforcement, dispatching customizable"
+  keywords="CAD/MDT system, fivem cad/mdt, open source, roleplay, law enforcement, free CAD/MDT, dispatching "
   twitter={{
-    site: "@casper124578",
     title: PAGE_TITLE,
     description: PAGE_DESC,
     card: "summary",
