@@ -1,8 +1,12 @@
 <script lang="ts">
   const FEATURES = [
     {
+      name: "Self-hosted",
+      text: "SnailyCAD is a self-hosted CAD/MDT. Host SnailyCAD wherever and whenever to your hosting likings.",
+    },
+    {
       name: "Localization",
-      text: "Easily translate SnailyCAD into different languages, add or overwrite languages.",
+      text: "Easily translate SnailyCAD into different languages, add or use existing languages.",
     },
     {
       name: "Customization",
@@ -10,7 +14,7 @@
     },
     {
       name: "Realtime",
-      text: "Almost everything syncs in realtime to all clients such as incoming calls, status updates, etc.",
+      text: "Almost everything syncs in realtime to all clients such as incoming calls, status updates, active incidents, etc.",
     },
     {
       name: "Great Support",
@@ -21,8 +25,12 @@
       text: "SnailyCAD receives tons of updates to make sure it stays functional and fast.",
     },
     {
-      name: "Light and dark UI",
-      text: "Choose between a dark or light themed UI. Your choice.",
+      name: "Great Integrations",
+      text: "SnailyCAD has many integrations such as Discord Roles Sync, Discord Webhooks and FiveM integrations",
+    },
+    {
+      name: "Mobile Support",
+      text: "SnailyCAD has been built to support smaller screens such as tablets and phones.",
     },
   ];
 </script>
@@ -50,4 +58,6 @@
       </div>
     {/each}
   </div>
+
+  <p class="italic font-medium mt-3">And many, many more features!</p>
 </section>

@@ -6,6 +6,7 @@
   import MrGameEagleImage from "../images/reviews/mr_game_eagle.webp";
   import TovadeImage from "../images/reviews/tovade.webp";
   import DalraeImage from "../images/reviews/dalrae.webp";
+  import WalkerzImage from "../images/reviews/walkerz.webp";
 
   export const REVIEWS: { name: string; text: string; image: string }[] = [
     {
@@ -50,21 +51,6 @@
       image: WhitigolImage,
     },
     {
-      name: "Cobra |Strike-Modifications|",
-      text: "I started using SnailyCAD about 6 or 7 months ago I'm very impressed with the layout and how everything works and the support. When people ask about a cad I have started to send them here because this is worth it more then a lot of other cads I have seen",
-      image: CobraImage,
-    },
-    {
-      name: "Andy",
-      text: "This is the best cad out there, it's free, it looks good, it has very good feature, and reported bugs are fixed very quickly.",
-      image: AndyImage,
-    },
-    {
-      name: "Tovade",
-      text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
-      image: TovadeImage,
-    },
-    {
       name: "Dalrae",
       text: `
       <p>
@@ -83,6 +69,31 @@
       that you're able to integrate it with your server very easily.
     </p>`,
       image: DalraeImage,
+    },
+    {
+      name: "Walkerz",
+      text: `
+<p>The SnailyCAD (Computer Aided Dispatch) is the best I have found! It's like the expensive with all the features BUT FREE!!</p>
+<br className="block w-full my-1" />
+<p>Its fully customizable. The Owner is very fast with responding to support even though its LATE for him!</p>
+<br className="block w-full my-1" />
+<p>SnailyCAD also has a community that's willing to help others. I fully recommend this CAD!!!!</p>`,
+      image: WalkerzImage,
+    },
+    {
+      name: "Cobra |Strike-Modifications|",
+      text: "I started using SnailyCAD about 6 or 7 months ago I'm very impressed with the layout and how everything works and the support. When people ask about a cad I have started to send them here because this is worth it more then a lot of other cads I have seen",
+      image: CobraImage,
+    },
+    {
+      name: "Andy",
+      text: "This is the best cad out there, it's free, it looks good, it has very good feature, and reported bugs are fixed very quickly.",
+      image: AndyImage,
+    },
+    {
+      name: "Tovade",
+      text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
+      image: TovadeImage,
     },
   ];
 </script>
