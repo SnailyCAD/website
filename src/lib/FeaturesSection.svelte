@@ -60,6 +60,8 @@
   </div>
 
   <a
+    target="_blank"
+    rel="noreferer noopener"
     href="https://cad-docs.caspertheghost.me/docs/features"
     class="italic font-medium mt-3 underline">And many, many more features!</a
   >
