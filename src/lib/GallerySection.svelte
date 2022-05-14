@@ -13,6 +13,7 @@
   import live_map from "../images/cad/live_map.jpg";
   import ems_fd_dashboard from "../images/cad/ems_fd_dashboard.webp";
   import leo from "../images/cad/leo.webp";
+  import leo3 from "../images/cad/leo3.webp";
   import manage_users from "../images/cad/manage_users.webp";
   import manage_values from "../images/cad/manage_values.webp";
   import my_officers from "../images/cad/my_officers.webp";
@@ -20,6 +21,7 @@
   import incidents from "../images/cad/incidents.webp";
   import incidents2 from "../images/cad/incidents2.webp";
   import manage_units from "../images/cad/manage_units.webp";
+  import manage_courthouse from "../images/cad/manage_courthouse.webp";
 
   const images = [
     admin_dashboard,
@@ -32,6 +34,7 @@
     live_map,
     ems_fd_dashboard,
     leo,
+    leo3,
     manage_users,
     manage_values,
     my_officers,
@@ -39,6 +42,7 @@
     incidents,
     incidents2,
     manage_units,
+    manage_courthouse,
   ];
 </script>
 
