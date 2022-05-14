@@ -1,9 +1,23 @@
 <script lang="ts">
   import LiteYouTube from "svelte-lite-youtube-embed";
-  import { DISCORD_URL, DOCS_URL } from "./Header.svelte";
+  import { DISCORD_URL, DOCS_URL, GITHUB_URL } from "./Header.svelte";
+
+  const HIDE_DATE = new Date("2022-07-01").getTime();
+  const shouldShowBanner = Date.now() <= HIDE_DATE;
 </script>
 
 <section class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-36 gap-y-6">
+  {#if shouldShowBanner}
+    <a
+      target="_blank"
+      href={GITHUB_URL}
+      class="text-base p-2 bg-slate-700 rounded-md shadow-sm mb-2"
+    >
+      SnailyCADv4 is now out of beta! It is now stable and available to download on Linux and
+      Windows.
+    </a>
+  {/if}
+
   <h1
     class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl !leading-[1.2]"
   >
