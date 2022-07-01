@@ -39,6 +39,6 @@
   "dependencies": {
     "svelte-lite-youtube-embed": "^0.0.3",
     "svelte-seo": "^1.4.1",
-    "swiper": "^8.2.2"
+    "swiper": "^8.2.6"
   }
 }
