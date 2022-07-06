@@ -2,7 +2,7 @@
   const FEATURES = [
     {
       name: "Self-hosted",
-      text: "SnailyCAD is a self-hosted CAD/MDT. Host SnailyCAD wherever and whenever to your hosting likings.",
+      text: "SnailyCAD is a self-hosted CAD/MDT. Host SnailyCAD wherever and whenever to your hosting needs.",
     },
     {
       name: "Localization",
@@ -17,20 +17,12 @@
       text: "Almost everything syncs in realtime to all clients such as incoming calls, status updates, active incidents, etc.",
     },
     {
-      name: "Great Support",
+      name: "Great Support & Constant updates",
       text: "We try to help as much as we can. Bugs and feature requests are handled with care and speed.",
-    },
-    {
-      name: "Constant updates",
-      text: "SnailyCAD receives tons of updates to make sure it stays functional and fast.",
     },
     {
       name: "Great Integrations",
       text: "SnailyCAD has many integrations such as Discord Roles Sync, Discord Webhooks and FiveM integrations",
-    },
-    {
-      name: "Mobile Support",
-      text: "SnailyCAD has been built to support smaller screens such as tablets and phones.",
     },
   ];
 </script>
@@ -45,16 +37,14 @@
     Top Features
   </h1>
 
-  <div class="grid grid-cols-1 gap-3 mt-10 md:grid-cols-2">
+  <div class="grid grid-cols-1 gap-5 mt-10 sm:grid-cols-2 md:grid-cols-3">
     {#each FEATURES as feature}
       <div
-        class="cursor-default relative p-6 transition-transform rounded-md shadow-lg bg-slate-700 hover:scale-[1.010]"
+        class="cursor-default relative p-8 transition-transform rounded-xl shadow-lg bg-slate-700 hover:scale-[1.010]"
       >
-        <header class="flex items-center gap-4 mb-4">
-          <h2 class="text-lg font-semibold text-gray-200">{feature.name}</h2>
-        </header>
+        <h2 class="text-xl font-medium text-gray-200 mb-3">{feature.name}</h2>
 
-        <p>{feature.text}</p>
+        <p class="text-lg">{feature.text}</p>
       </div>
     {/each}
   </div>
@@ -63,6 +53,6 @@
     target="_blank"
     rel="noreferer noopener"
     href="https://cad-docs.caspertheghost.me/docs/features"
-    class="italic font-medium mt-3 underline">And many, many more features!</a
+    class="italic font-medium mt-10 underline">And many, many more features!</a
   >
 </section>
