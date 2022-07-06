@@ -1,6 +1,7 @@
 <script lang="ts">
   import { REVIEWS } from "../data/reviews.svelte";
   import { DISCORD_URL } from "./Header.svelte";
+  import classNames from "classnames";
 
   const half = Math.floor(REVIEWS.length / 2);
   const COLUMNS = [REVIEWS.slice(0, half), REVIEWS.slice(half, REVIEWS.length)];
@@ -55,13 +56,18 @@
     {/each}
 
     <div
-      class="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t pt-32 pb-8 pointer-events-none from-slate-800 absolute"
+      class={classNames(
+        "inset-x-0 flex justify-center bg-gradient-to-t pt-32 pb-8 pointer-events-none from-slate-800",
+        isShowingMore ? "fixed bottom-0 z-10" : "absolute bottom-0",
+      )}
     >
       <button
         on:click={handleShowMoreClick}
         type="button"
-        class="relative text-sm text-white font-semibold h-12 px-6 rounded-3xl flex items-center bg-slate-700 hover:bg-slate-600 pointer-events-auto"
-        >{isShowingMore ? "Okay, SnailyCAD is awesome!" : "Show me more..."}</button
+        class={classNames(
+          "text-white text-sm font-medium py-3.5 px-6 rounded-3xl bg-slate-700 hover:bg-slate-600 pointer-events-auto",
+          isShowingMore ? "fixed bottom-10 z-10" : "",
+        )}>{isShowingMore ? "Okay, SnailyCAD is awesome!" : "Show me more..."}</button
       >
     </div>
   </div>

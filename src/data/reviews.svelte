@@ -114,11 +114,6 @@ The design, the layout and the features are just perfect.</p>
       image: AndyImage,
     },
     {
-      name: "Tovade",
-      text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
-      image: TovadeImage,
-    },
-    {
       name: "Whitigol",
       text: `<p>
             SnailyCAD has truly transformed my online CAD/MDT experience. Being free, open-source, well documented, and self-hosted, makes it the perfect tool to use.
@@ -132,6 +127,11 @@ The design, the layout and the features are just perfect.</p>
             With it's engaging User Interface, and all-around great features. I would definitely recommend using SnailyCAD!
           </p>`,
       image: WhitigolImage,
+    },
+    {
+      name: "Tovade",
+      text: "Great site! Smooth to use and easy to setup! I definitely recommend this to other users!!",
+      image: TovadeImage,
     },
   ];
 </script>
