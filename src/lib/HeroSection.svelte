@@ -30,6 +30,7 @@
       videoId="z30EmXXmJ_Q"
       playLabel="SnailyCADv4 Quick Walk-through - 2022"
       params="controls=1"
+      noCookie={true}
     />
   </div>
 </section>
