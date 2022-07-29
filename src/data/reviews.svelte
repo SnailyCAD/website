@@ -9,6 +9,8 @@
   import WalkerzImage from "../images/reviews/walkerz.webp";
   import NikiImage from "../images/reviews/niki.webp";
   import LincolnMillerImage from "../images/reviews/lincoln_miller.webp";
+  import M4KImage from "../images/reviews/m4k.webp";
+  import MetzeralImage from "../images/reviews/metzeral.webp";
 
   export const REVIEWS: { name: string; text: string; image: string }[] = [
     {
@@ -48,16 +50,6 @@
       image: WalkerzImage,
     },
     {
-      name: "Niki",
-      text: `
-<p>Before using SnailyCAD we used SonoranCAD which is overhyped and just a mess to deal with. They never took ideas or requests from their customers nor actually fix their bugs.</p>
-<br className="block w-full my-1" />
-<p>SnailyCAD is different, I created a feature request and the next day the feature was implemented. Which is awesome, this is the new CAD we use for our Community!</p>
-<br className="block w-full my-1" />
-<p>Thank you so much</p>`,
-      image: NikiImage,
-    },
-    {
       name: "Lincoln Miller",
       text: `
 <p>What I have wanted to say for a long time, I am so glad I found this CAD/MDT system, it is the best free system I have found so far.
@@ -71,17 +63,13 @@ The design, the layout and the features are just perfect.</p>
       image: LincolnMillerImage,
     },
     {
-      name: "AussieDropBear",
+      name: "M4K",
       text: `
-<p>Gosh... Where do I start?</p>
-<br className="block w-full my-1" />
-<p>I first found this  CAD/MDT back in May 2021, my community and I where previously using SonoranCAD which is so overpriced and overrated, we were looking to "cut costs" and this is where I came along SnailyCAD.</p>
-<br className="block w-full my-1" />
-<p>SnailyCAD is such awesome software, SnailyCAD has come so so far since May 2021, I'm so impressed with the work done by Casper and the contributors that have helped him.</p>
-<br className="block w-full my-1" />
-<p>Casper is very quick with support. SnailyCAD is fully customizable and very easy to edit the code (if you have the experience)</p>
-`,
-      image: "",
+      <p>SnailyCAD is one of the easiest to set up and has many functions. Unsure how this CAD/MDT is free due to the hard work put into it and the amazing functions it comes with.</p>
+      <br className="block w-full my-1" />
+      <p>Support is really quick and useful. I’m impressed with the whole Cad and how it works, cant wait to see what V5 brings!</p>
+      `,
+      image: M4KImage,
     },
     {
       name: "Dalrae",
@@ -127,6 +115,38 @@ The design, the layout and the features are just perfect.</p>
             With it's engaging User Interface, and all-around great features. I would definitely recommend using SnailyCAD!
           </p>`,
       image: WhitigolImage,
+    },
+    {
+      name: "Metzeral",
+      text: `<p>SnailyCAD is one of the best, if not the best, CAD I know of. Easy to setup and use, it has all the features anyone can ask for. Plus, the dev listens to his community and add new features asked by them.</p>
+      <br className="block w-full my-1" />
+      <p>Support is quicker and more useful than most companies. Really impressed by the work of Casper.</p>
+      <br className="block w-full my-1" />
+      <p>It's a real pleasure working on translating the CAD!</p>`,
+      image: MetzeralImage,
+    },
+    {
+      name: "AussieDropBear",
+      text: `
+<p>Gosh... Where do I start?</p>
+<br className="block w-full my-1" />
+<p>I first found this  CAD/MDT back in May 2021, my community and I where previously using SonoranCAD which is so overpriced and overrated, we were looking to "cut costs" and this is where I came along SnailyCAD.</p>
+<br className="block w-full my-1" />
+<p>SnailyCAD is such awesome software, SnailyCAD has come so so far since May 2021, I'm so impressed with the work done by Casper and the contributors that have helped him.</p>
+<br className="block w-full my-1" />
+<p>Casper is very quick with support. SnailyCAD is fully customizable and very easy to edit the code (if you have the experience)</p>
+`,
+      image: "",
+    },
+    {
+      name: "Niki",
+      text: `
+<p>Before using SnailyCAD we used SonoranCAD which is overhyped and just a mess to deal with. They never took ideas or requests from their customers nor actually fix their bugs.</p>
+<br className="block w-full my-1" />
+<p>SnailyCAD is different, I created a feature request and the next day the feature was implemented. Which is awesome, this is the new CAD we use for our Community!</p>
+<br className="block w-full my-1" />
+<p>Thank you so much</p>`,
+      image: NikiImage,
     },
     {
       name: "Tovade",
