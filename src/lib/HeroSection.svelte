@@ -4,15 +4,15 @@
 </script>
 
 <section
-  class="flex flex-col items-center justify-center w-full max-w-5xl py-20 pt-7 mt-36 gap-y-6"
+  class="flex flex-col items-center justify-center w-full max-w-5xl gap-y-6 mx-auto h-[94vh]"
 >
   <h1
-    class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl !leading-[1.2]"
+    class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl !leading-[1.3]"
   >
     Modern-looking, free and open-source CAD/MDT for FiveM.
   </h1>
 
-  <p class="max-w-3xl text-center text-gray-300/90 mt-2 sm:text-[1.1rem] md:text-[1.4rem]">
+  <p class="max-w-3xl text-center text-gray-300/90 mt-4 sm:text-[1.1rem] md:text-[1.4rem]">
     SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the wanted
     features to fit your roleplay needs.
   </p>
@@ -25,12 +25,13 @@
     Start using SnailyCAD ->
   </a>
 
-  <div class="w-full max-w-[700px]">
+  <div class="w-full max-w-[700px] mt-20">
     <LiteYouTube
+      posterQuality="maxresdefault"
       videoId="z30EmXXmJ_Q"
-      playLabel="SnailyCADv4 Quick Walk-through - 2022"
       params="controls=1"
       noCookie={true}
+      videoTitle="SnailyCADv4 Quick Walk-through - 2022"
     />
   </div>
 </section>

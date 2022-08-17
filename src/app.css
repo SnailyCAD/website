@@ -13,3 +13,7 @@ body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
+
+.lite-youtube {
+  transform: scale(1.2) !important;
+}

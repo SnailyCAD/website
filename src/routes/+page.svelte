@@ -1,14 +1,9 @@
-<script context="module" lang="ts">
-  throw new Error(
-    "@migration task: Check code was safely removed (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292722)",
-  );
+<script lang="ts">
+  import FeaturesSection from "$lib/FeaturesSection.svelte";
+  import GallerySection from "$lib/GallerySection.svelte";
 
-  // import FeaturesSection from "$lib/FeaturesSection.svelte";
-  // import GallerySection from "$lib/GallerySection.svelte";
-
-  // import HeroSection from "$lib/HeroSection.svelte";
-  // import ReviewsSection from "$lib/ReviewsSection.svelte";
-  // export const prerender = true;
+  import HeroSection from "$lib/HeroSection.svelte";
+  import ReviewsSection from "$lib/ReviewsSection.svelte";
 </script>
 
 <svelte:head>

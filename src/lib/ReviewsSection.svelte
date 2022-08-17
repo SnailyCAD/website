@@ -15,7 +15,10 @@
   }
 </script>
 
-<section id="reviews" class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
+<section
+  id="reviews"
+  class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5 mx-auto"
+>
   <h1
     class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl text-slate-100/90"
   >
@@ -67,7 +70,7 @@
         class={classNames(
           "text-white text-sm font-medium py-3.5 px-6 rounded-3xl bg-slate-700 hover:bg-slate-600 pointer-events-auto",
           isShowingMore ? "fixed bottom-10 z-10" : "",
-        )}>{isShowingMore ? "Okay, SnailyCAD is awesome!" : "Show me more..."}</button
+        )}>{isShowingMore ? "Okay, SnailyCAD is awesome!" : "Show more.."}</button
       >
     </div>
   </div>

@@ -35,7 +35,7 @@
 
 <Header />
 
-<main>
+<main class="w-full">
   <slot />
 </main>
 

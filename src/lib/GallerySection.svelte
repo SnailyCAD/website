@@ -46,42 +46,46 @@
   ];
 </script>
 
-<section id="gallery" class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5">
-  <h1
-    class="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl"
-  >
-    Gallery
-  </h1>
-
-  <p class="my-7 max-w-3xl text-lg text-center text-gray-300">
-    A list of images that show the most important aspects of a CAD/MDT. There are many, many more
-    features that can't be shown below.
-  </p>
-
-  <div class="w-full">
-    <Swiper
-      keyboard
-      preloadImages
-      a11y={{ enabled: true }}
-      lazy
-      modules={[Keyboard, Lazy, A11y]}
-      loop
-      spaceBetween={25}
-      slidesPerView={1.5}
+<section id="gallery" class="w-full py-32 bg-slate-700">
+  <div class="mx-auto max-w-7xl flex flex-col items-center justify-center">
+    <h1
+      class="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl"
     >
-      {#each images as image, idx}
-        <SwiperSlide width={700}>
-          <img
-            class="select-none"
-            draggable="false"
-            src={image}
-            alt={image.toString()}
-            width="700px"
-            height="100%"
-            loading={idx === 0 ? "eager" : "lazy"}
-          />
-        </SwiperSlide>
-      {/each}
-    </Swiper>
+      Gallery
+    </h1>
+
+    <p class="my-7 max-w-3xl text-lg text-center text-gray-300">
+      A list of images that show the most important aspects of a CAD/MDT. There are many, many more
+      features that can't be shown below.
+    </p>
+
+    <div class="w-full mt-5">
+      <Swiper
+        keyboard
+        preloadImages
+        a11y={{ enabled: true }}
+        lazy
+        modules={[Keyboard, Lazy, A11y]}
+        loop
+        spaceBetween={25}
+        slidesPerView={1.5}
+      >
+        {#each images as image, idx}
+          <SwiperSlide width={700}>
+            <div class="bg-slate-800 p-10 rounded-xl lg:h-[580px] grid place-content-center">
+              <img
+                class="select-none rounded-sm shadow-lg"
+                draggable="false"
+                src={image}
+                alt={image.toString()}
+                width="800px"
+                height="100%"
+                loading={idx === 0 ? "eager" : "lazy"}
+              />
+            </div>
+          </SwiperSlide>
+        {/each}
+      </Swiper>
+    </div>
   </div>
 </section>
