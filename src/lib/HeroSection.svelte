@@ -3,9 +3,7 @@
   import { DOCS_URL } from "./Header.svelte";
 </script>
 
-<section
-  class="flex flex-col items-center justify-center w-full max-w-5xl gap-y-6 mx-auto h-[94vh]"
->
+<section class="flex flex-col items-center w-full max-w-5xl gap-y-6 mx-auto min-h-[94vh] mt-52">
   <h1
     class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl !leading-[1.3]"
   >
