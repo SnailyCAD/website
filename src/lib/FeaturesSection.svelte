@@ -32,7 +32,7 @@
     <h1
       class="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl"
     >
-      Top Features
+      Top features
     </h1>
 
     <div class="grid grid-cols-1 gap-5 mt-20 sm:grid-cols-2 md:grid-cols-3">

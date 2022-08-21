@@ -22,6 +22,7 @@
   import incidents2 from "../images/cad/incidents2.webp";
   import manage_units from "../images/cad/manage_units.webp";
   import manage_courthouse from "../images/cad/manage_courthouse.webp";
+  import manage_custom_roles from "../images/cad/manage_custom_roles.webp";
   import business_info from "../images/cad/business_info.webp";
   import businesses_manage from "../images/cad/businesses_manage.webp";
   import businesses from "../images/cad/businesses.webp";
@@ -46,6 +47,7 @@
     leo3,
     ems_fd_dashboard,
     manage_users,
+    manage_custom_roles,
     manage_values,
     my_officers,
     tow_dashboard,
@@ -84,7 +86,7 @@
           <SwiperSlide width={700}>
             <div class="bg-slate-800 p-10 rounded-xl lg:h-[580px] grid place-content-center">
               <img
-                class="select-none rounded-sm  max-h-[540px] object-contain"
+                class="select-none rounded-sm drop-shadow-lg max-h-[540px] object-contain"
                 draggable="false"
                 src={image}
                 alt={image.toString()}
