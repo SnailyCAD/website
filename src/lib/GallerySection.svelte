@@ -22,19 +22,29 @@
   import incidents2 from "../images/cad/incidents2.webp";
   import manage_units from "../images/cad/manage_units.webp";
   import manage_courthouse from "../images/cad/manage_courthouse.webp";
+  import business_info from "../images/cad/business_info.webp";
+  import businesses_manage from "../images/cad/businesses_manage.webp";
+  import businesses from "../images/cad/businesses.webp";
+  import login from "../images/cad/login.webp";
+  import taxi from "../images/cad/taxi.webp";
 
   const images = [
+    login,
+    cad_settings,
     admin_dashboard,
     user_perms,
-    cad_settings,
-    citizen_info,
     citizens,
     create_citizen,
+    citizen_info,
+    businesses,
+    business_info,
+    businesses_manage,
+    taxi,
     dispatch,
     live_map,
-    ems_fd_dashboard,
     leo,
     leo3,
+    ems_fd_dashboard,
     manage_users,
     manage_values,
     my_officers,
@@ -74,7 +84,7 @@
           <SwiperSlide width={700}>
             <div class="bg-slate-800 p-10 rounded-xl lg:h-[580px] grid place-content-center">
               <img
-                class="select-none rounded-sm shadow-lg"
+                class="select-none rounded-sm  max-h-[540px] object-contain"
                 draggable="false"
                 src={image}
                 alt={image.toString()}
