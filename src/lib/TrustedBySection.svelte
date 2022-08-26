@@ -61,6 +61,7 @@
   <div class="flex justify-center gap-7 flex-wrap">
     {#each communities as community}
       <a
+        target="_blank"
         href={community.discordUrl}
         class="flex flex-col items-center justify-center gap-y-6 bg-slate-700 hover:bg-slate-600 transition-colors p-6 rounded-xl"
       >

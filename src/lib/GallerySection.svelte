@@ -20,6 +20,7 @@
   import tow_dashboard from "../images/cad/tow_dashboard.webp";
   import incidents from "../images/cad/incidents.webp";
   import incidents2 from "../images/cad/incidents2.webp";
+  import jail from "../images/cad/jail.webp";
   import manage_units from "../images/cad/manage_units.webp";
   import manage_courthouse from "../images/cad/manage_courthouse.webp";
   import manage_custom_roles from "../images/cad/manage_custom_roles.webp";
@@ -28,6 +29,7 @@
   import businesses from "../images/cad/businesses.webp";
   import login from "../images/cad/login.webp";
   import taxi from "../images/cad/taxi.webp";
+  import bleeter from "../images/cad/bleeter.webp";
 
   const images = [
     login,
@@ -45,6 +47,7 @@
     live_map,
     leo,
     leo3,
+    jail,
     ems_fd_dashboard,
     manage_users,
     manage_custom_roles,
@@ -55,6 +58,7 @@
     incidents2,
     manage_units,
     manage_courthouse,
+    bleeter,
   ];
 </script>
 

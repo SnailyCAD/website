@@ -20,9 +20,11 @@
     <a
       target="_blank"
       href={DOCS_URL}
-      class="text-xl my-9 p-3 px-5 bg-slate-600 transition-colors hover:bg-slate-600/80 rounded-3xl shadow-sm"
+      class="text-xl my-9 p-3 px-5 bg-slate-600 transition-colors hover:bg-slate-600/80 rounded-3xl shadow-sm group"
     >
-      Start using SnailyCAD ->
+      Start using SnailyCAD <span
+        class="transition-transform group-hover:translate-x-0.5 inline-block">-></span
+      >
     </a>
 
     <div class="w-full max-w-[700px] mt-20">
