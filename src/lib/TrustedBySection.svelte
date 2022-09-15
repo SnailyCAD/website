@@ -53,12 +53,14 @@
   ];
 </script>
 
-<div class="flex flex-col mt-40 items-center w-full max-w-8xl gap-y-6 mx-auto pb-20">
-  <h2 class="max-w-5xl text-2xl font-semibold text-center text-gray-100 mb-7">
-    Trusted by top communities
-  </h2>
+<div class="flex flex-col mt-40 items-center w-full gap-y-6 mx-auto py-20 relative">
+  <div class="bg-primary w-full h-full absolute top-0 left-0 -skew-y-2 -z-[1]" />
 
-  <div class="flex justify-center gap-7 flex-wrap">
+  <h1 class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl">
+    Trusted by top communities
+  </h1>
+
+  <div class="flex justify-center gap-7 flex-wrap max-w-5xl mt-10">
     {#each communities as community}
       <a
         target="_blank"

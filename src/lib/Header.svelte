@@ -20,7 +20,7 @@
 
   function handleScroll() {
     const offset = nav?.offsetTop;
-    nav.classList.toggle("bg-slate-800/95", window.pageYOffset > offset);
+    nav.classList.toggle("bg-primary", window.pageYOffset > offset);
   }
 </script>
 

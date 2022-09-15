@@ -4,6 +4,7 @@
 
   import HeroSection from "$lib/HeroSection.svelte";
   import ReviewsSection from "$lib/ReviewsSection.svelte";
+  import TrustedBySection from "$lib/TrustedBySection.svelte";
 </script>
 
 <svelte:head>
@@ -17,5 +18,6 @@
 
 <HeroSection />
 <FeaturesSection />
+<TrustedBySection />
 <ReviewsSection />
 <GallerySection />
