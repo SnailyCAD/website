@@ -1,7 +1,5 @@
 <script lang="ts">
-  import LiteYouTube from "svelte-lite-youtube-embed";
   import { DOCS_URL } from "./Header.svelte";
-  import TrustedBySection from "./TrustedBySection.svelte";
 
   const WALK_THROUGH_VIDEO = "https://youtube.com/watch?v=z30EmXXmJ_Q";
 

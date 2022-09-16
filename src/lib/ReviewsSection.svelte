@@ -6,7 +6,7 @@
   const half = Math.floor(REVIEWS.length / 2);
   const COLUMNS = [REVIEWS.slice(0, half), REVIEWS.slice(half, REVIEWS.length)];
 
-  let isShowingMore: boolean = false;
+  let isShowingMore = false;
   let containerDiv: HTMLDivElement;
 
   function handleShowMoreClick() {
