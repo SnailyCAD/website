@@ -53,31 +53,34 @@
   ];
 </script>
 
-<div class="flex flex-col mt-40 items-center w-full max-w-8xl gap-y-6 mx-auto pb-20">
-  <h2 class="max-w-5xl text-2xl font-semibold text-center text-gray-100 mb-7">
-    Trusted by top communities
-  </h2>
+<div class="relative">
+  <div class="bg-primary w-full h-full absolute top-0 left-0 -skew-y-2 -z-[1]" />
 
-  <div class="flex justify-center gap-7 flex-wrap">
-    {#each communities as community}
-      <a
-        target="_blank"
-        href={community.discordUrl}
-        class="flex flex-col items-center justify-center gap-y-6 bg-slate-700 hover:bg-slate-600 transition-colors p-6 rounded-xl"
-      >
-        <img
-          width="160"
-          height="160"
-          src={community.image}
-          alt={community.name}
-          class="w-40 max-w-5xl rounded-lg drop-shadow-lg"
-        />
-        <h2 class="text-base font-semibold text-center text-gray-100">
-          {community.name}
-        </h2>
-      </a>
-    {/each}
+  <div class="flex flex-col mt-40 items-center gap-y-6 mx-auto w-full h-full py-40 overflow-hidden">
+    <h1 class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl">
+      Trusted by top communities
+    </h1>
+    <div class="flex justify-center gap-7 max-w-8xl mt-14">
+      {#each communities as community}
+        <a
+          target="_blank"
+          href={community.discordUrl}
+          class="flex flex-col items-center justify-center gap-y-6 bg-secondary hover:brightness-125 transition p-6 rounded-xl"
+        >
+          <img
+            width="160"
+            height="160"
+            src={community.image}
+            alt={community.name}
+            class="w-40 max-w-5xl rounded-lg drop-shadow-lg"
+          />
+          <h2 class="text-base font-semibold text-center text-gray-100">
+            {community.name}
+          </h2>
+        </a>
+      {/each}
+    </div>
+
+    <p class="text-gray-300 font-medium italic">And many more communities!</p>
   </div>
-
-  <p class="text-gray-300 font-medium italic">And many more communities!</p>
 </div>

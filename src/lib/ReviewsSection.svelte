@@ -6,7 +6,7 @@
   const half = Math.floor(REVIEWS.length / 2);
   const COLUMNS = [REVIEWS.slice(0, half), REVIEWS.slice(half, REVIEWS.length)];
 
-  let isShowingMore: boolean = false;
+  let isShowingMore = false;
   let containerDiv: HTMLDivElement;
 
   function handleShowMoreClick() {
@@ -20,12 +20,12 @@
   class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5 mx-auto"
 >
   <h1
-    class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl text-slate-100/90"
+    class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl text-primary"
   >
-    Loved by many communities
+    Adored by many
   </h1>
 
-  <p class="max-w-3xl my-8 mb-10 text-base font-medium text-center md:text-xl">
+  <p class="max-w-3xl my-8 mb-10 text-base font-medium text-center md:text-xl text-secondary">
     Here is what people say about SnailyCADv4.
   </p>
 
@@ -37,7 +37,7 @@
       <ul class="flex flex-col gap-4">
         {#each column as review}
           <li
-            class="cursor-default relative p-6 transition-transform rounded-xl shadow-lg bg-slate-700 hover:-translate-y-0.5 h-fit"
+            class="cursor-default relative p-6 transition-transform rounded-xl shadow-lg bg-primary hover:-translate-y-0.5 h-fit"
           >
             <header class="flex items-center gap-4 mb-4">
               <img
@@ -58,24 +58,19 @@
       </ul>
     {/each}
 
-    <div
-      class={classNames(
-        "inset-x-0 flex justify-center bg-gradient-to-t pt-32 pb-8 pointer-events-none from-slate-800",
-        isShowingMore ? "fixed bottom-0 z-10" : "absolute bottom-0",
-      )}
-    >
+    <div class="inset-x-0 flex justify-center pt-32 pb-8 pointer-events-none absolute bottom-0">
       <button
         on:click={handleShowMoreClick}
         type="button"
         class={classNames(
-          "text-white text-sm font-medium py-3.5 px-6 rounded-3xl bg-slate-700 hover:bg-slate-600 pointer-events-auto",
+          "text-white text-sm font-medium py-3.5 px-6 rounded-3xl bg-secondary hover:brightness-150 pointer-events-auto drop-shadow-lg",
           isShowingMore ? "fixed bottom-10 z-10" : "",
-        )}>{isShowingMore ? "Okay, SnailyCAD is awesome!" : "Show more.."}</button
+        )}>{isShowingMore ? "Okay, SnailyCAD is awesome!" : "Show all reviews"}</button
       >
     </div>
   </div>
 
-  <a href={DISCORD_URL} class="font-medium underline cursor-pointer mt-7 text-slate-300">
+  <a href={DISCORD_URL} class="font-medium underline cursor-pointer mt-7 text-secondary">
     Join our Discord to post a review.
   </a>
 </section>

@@ -62,7 +62,7 @@
   ];
 </script>
 
-<section id="gallery" class="w-full py-32 bg-slate-700">
+<section id="gallery" class="w-full py-32 bg-primary">
   <div class="mx-auto max-w-7xl flex flex-col items-center justify-center">
     <h1
       class="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl"
@@ -88,7 +88,7 @@
       >
         {#each images as image, idx}
           <SwiperSlide width={700}>
-            <div class="bg-slate-800 p-10 rounded-xl lg:h-[580px] grid place-content-center">
+            <div class="bg-secondary p-10 rounded-xl lg:h-[580px] grid place-content-center">
               <img
                 class="select-none rounded-sm drop-shadow-lg max-h-[540px] object-contain"
                 draggable="false"

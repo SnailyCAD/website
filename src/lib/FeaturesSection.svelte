@@ -27,10 +27,10 @@
   ];
 </script>
 
-<section id="features" class="w-full py-32 bg-slate-700">
+<section id="features" class="w-full mt-[200px]">
   <div class="mx-auto max-w-5xl flex flex-col items-center justify-center">
     <h1
-      class="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl"
+      class="max-w-5xl text-3xl font-black text-center text-primary sm:text-4xl md:text-5xl lg:text-6xl"
     >
       Top features
     </h1>
@@ -38,11 +38,11 @@
     <div class="grid grid-cols-1 gap-5 mt-20 sm:grid-cols-2 md:grid-cols-3">
       {#each FEATURES as feature}
         <div
-          class="cursor-default relative p-8 transition-transform rounded-xl shadow-lg bg-slate-800 hover:scale-[1.010]"
+          class="cursor-default relative p-8 transition-transform rounded-xl shadow-lg bg-primary hover:scale-[1.010]"
         >
-          <h2 class="text-xl font-medium text-gray-200 mb-3">{feature.name}</h2>
+          <h2 class="text-xl font-[600] text-gray-200 mb-3">{feature.name}</h2>
 
-          <p class="text-lg">{feature.text}</p>
+          <p class="text-lg font-[400]">{feature.text}</p>
         </div>
       {/each}
     </div>
@@ -51,7 +51,7 @@
       target="_blank"
       rel="noreferer noopener"
       href="https://cad-docs.caspertheghost.me/docs/features"
-      class="italic font-medium mt-10 underline">And many, many more features!</a
+      class="italic font-medium mt-10 underline text-primary">And many, many more features!</a
     >
   </div>
 </section>
