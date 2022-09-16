@@ -10,7 +10,9 @@
   const PORTFOLIO_URL = "https://caspertheghost.me";
 </script>
 
-<footer class="absolute left-0 right-0 p-10 flex justify-center bg-slate-800">
+<footer
+  class="absolute left-0 right-0 p-10 flex justify-center bg-primary border-t-2 border-secondary"
+>
   <div class="md:flex justify-between h-full w-full max-w-5xl">
     <ul class="flex flex-col mt-6 gap-y-3">
       <li>

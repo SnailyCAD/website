@@ -17,7 +17,7 @@
     </h1>
 
     <p class="max-w-3xl text-center text-gray-300/90 mt-4 sm:text-[1.1rem] md:text-[1.4rem]">
-      SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the wanted
+      SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the needed
       features to fit your roleplay needs.
     </p>
 
@@ -25,12 +25,22 @@
       <a
         target="_blank"
         href={DOCS_URL}
-        class="text-lg  p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
+        class="flex items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
       >
-        Start using SnailyCAD <span
-          class="transition-transform group-hover:translate-x-0.5 inline-block"
-        >
-          ->
+        <span>Start using SnailyCAD</span>
+        <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            />
+          </svg>
         </span>
       </a>
 
@@ -43,7 +53,9 @@
       </a>
     </div>
 
-    <div class="w-full border-2 border-[#20212C] max-h-[550px] overflow-hidden">
+    <div
+      class="w-full border-2 border-[#20212C] max-h-[550px] overflow-hidden drop-shadow-xl shadow-[#20212C]"
+    >
       <!-- <LiteYouTube
         posterQuality="maxresdefault"
         videoId="z30EmXXmJ_Q"
