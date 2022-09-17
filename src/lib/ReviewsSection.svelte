@@ -17,7 +17,7 @@
 
 <section
   id="reviews"
-  class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5 mx-auto"
+  class="flex flex-col items-center justify-center w-full max-w-5xl py-20 mt-5 mx-auto px-4 md:px-0"
 >
   <h1
     class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl text-primary"

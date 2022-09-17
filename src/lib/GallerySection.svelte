@@ -62,7 +62,7 @@
   ];
 </script>
 
-<section id="gallery" class="w-full py-32 bg-primary">
+<section id="gallery" class="w-full py-32 bg-primary px-4 md:px-0">
   <div class="mx-auto max-w-7xl flex flex-col items-center justify-center">
     <h1
       class="max-w-5xl text-3xl font-black text-center text-slate-100/90 sm:text-4xl md:text-5xl lg:text-6xl"
