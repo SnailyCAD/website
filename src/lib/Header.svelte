@@ -33,22 +33,26 @@
 
       <ul class="hidden gap-x-5 sm:flex">
         <li>
-          <a href="#features" class="font-medium transition-colors hover:text-white">
+          <a href="#features" class="text-gray-300 font-medium transition-colors hover:text-white">
             Top Features
           </a>
         </li>
         <li>
-          <a href="#reviews" class="font-medium transition-colors hover:text-white">Reviews</a>
+          <a href="#reviews" class="text-gray-300 font-medium transition-colors hover:text-white"
+            >Reviews</a
+          >
         </li>
         <li>
-          <a href="#gallery" class="font-medium transition-colors hover:text-white">Gallery</a>
+          <a href="#gallery" class="text-gray-300 font-medium transition-colors hover:text-white"
+            >Gallery</a
+          >
         </li>
         <li>
           <a
             target="_blank"
             rel="noreferrer noopener"
             href={DOCS_URL}
-            class="font-medium transition-colors hover:text-white">Documentation</a
+            class="text-gray-300 font-medium transition-colors hover:text-white">Documentation</a
           >
         </li>
       </ul>

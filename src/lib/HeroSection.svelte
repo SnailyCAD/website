@@ -7,8 +7,8 @@
 </script>
 
 <section class="h-[1000px] pt-40 bg-primary">
-  <div class="max-w-5xl mx-auto flex flex-col items-center w-full gap-y-6">
-    <div class="px-4 md:px-0">
+  <div class="max-w-5xl mx-auto w-full gap-y-6">
+    <div class="px-4 md:px-0 flex items-center flex-col">
       <h1
         class="max-w-5xl text-3xl font-black text-center text-gray-100 sm:text-4xl md:text-5xl lg:text-6xl !leading-[1.3]"
       >
@@ -23,7 +23,7 @@
         <a
           target="_blank"
           href={DOCS_URL}
-          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
+          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group "
         >
           <span>Start using SnailyCAD</span>
           <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">
@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <div class="flex items-center justify-center w-full h-[550px] overflow-hidden">
+    <div class="flex items-center justify-center w-full h-[550px] overflow-hidden mt-5">
       <div
         class="w-full border-2 border-[#20212C] h-[550px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
       >
