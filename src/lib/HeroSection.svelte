@@ -21,6 +21,7 @@
 
       <div class="my-9 flex flex-col justify-center items-center md:flex-row gap-2">
         <a
+          rel="noreferrer"
           target="_blank"
           href={DOCS_URL}
           class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group "
@@ -42,6 +43,7 @@
           </span>
         </a>
         <a
+          rel="noreferrer"
           target="_blank"
           href={WALK_THROUGH_VIDEO}
           class="text-lg p-3 px-5 hover:bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
@@ -55,13 +57,6 @@
       <div
         class="w-full border-2 border-[#20212C] h-[550px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
       >
-        <!-- <LiteYouTube
-          posterQuality="maxresdefault"
-          videoId="z30EmXXmJ_Q"
-          params="controls=1"
-          noCookie={true}
-          videoTitle="SnailyCADv4 Quick Walk-through - 2022"
-        /> -->
         <img
           class="h-[794px] min-w-[1020px] "
           width="1020"
@@ -73,6 +68,4 @@
       </div>
     </div>
   </div>
-
-  <!-- <TrustedBySection /> -->
 </section>

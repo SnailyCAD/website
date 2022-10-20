@@ -4,7 +4,7 @@
   const linkProps = {
     class: "underline cursor-pointer",
     target: "_blank",
-    rel: "noreferrer noopener",
+    rel: "noreferrer",
   };
 
   const PORTFOLIO_URL = "https://caspertheghost.me";
@@ -33,7 +33,7 @@
       <li>
         <a
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noreferrer"
           href={DOCS_URL}
           class="font-medium hover:underline transition-colors hover:text-white">Documentation</a
         >
@@ -41,7 +41,7 @@
       <li>
         <a
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noreferrer"
           href={DISCORD_URL}
           class="font-medium hover:underline transition-colors hover:text-white">Discord</a
         >
@@ -49,7 +49,7 @@
       <li>
         <a
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noreferrer"
           href={GITHUB_URL}
           class="font-medium hover:underline transition-colors hover:text-white">GitHub</a
         >

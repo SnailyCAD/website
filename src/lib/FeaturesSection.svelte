@@ -49,7 +49,7 @@
 
     <a
       target="_blank"
-      rel="noreferer noopener"
+      rel="noreferrer"
       href="https://cad-docs.caspertheghost.me/docs/features"
       class="italic font-medium mt-10 underline text-primary">And many, many more features!</a
     >

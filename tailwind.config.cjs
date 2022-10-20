@@ -7,6 +7,9 @@ module.exports = {
         secondary: "#36343E",
         tertiary: "#1F1E25",
       },
+      borderRadius: {
+        rounded: "4px",
+      },
     },
   },
 };

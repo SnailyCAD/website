@@ -50,7 +50,7 @@
         <li>
           <a
             target="_blank"
-            rel="noreferrer noopener"
+            rel="noreferrer"
             href={DOCS_URL}
             class="text-gray-300 font-medium transition-colors hover:text-white">Documentation</a
           >
