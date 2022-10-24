@@ -61,6 +61,14 @@
       name: "Creizy",
       url: "https://github.com/Creizy",
     },
+    {
+      name: "Northern524",
+      url: "https://github.com/northern524",
+    },
+    {
+      name: "subtosharki",
+      url: "https://github.com/subtosharki",
+    },
   ];
 </script>
 
