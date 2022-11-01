@@ -16,7 +16,7 @@
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "^1.0.0-next.39",
     "@sveltejs/kit": "1.0.0-next.520",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.40.1",
     "autoprefixer": "^10.4.12",
     "eslint": "^8.25.0",
