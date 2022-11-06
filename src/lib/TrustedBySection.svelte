@@ -104,7 +104,14 @@
     <p class="text-gray-300 font-medium italic">And many more communities!</p>
     <h2 class="text-3xl font-bold mt-3">Proud Sponsors</h2>
 
-    <ul class="flex flex-wrap gap-2 mt-1">
+    <a class="mt-1" href="https://gamefocal.com?ref=snailycad">
+      <img
+        alt="GameFocal"
+        width="150"
+        src="https://gamefocal.com/assets/dash/images/brand/logo.png"
+      />
+    </a>
+    <ul class="flex flex-wrap gap-2">
       {#each sponsors as sponsor}
         <li>
           <a
