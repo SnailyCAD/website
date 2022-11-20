@@ -119,6 +119,8 @@
       {#each sponsors as sponsor}
         <li>
           <a
+            rel="noreferrer"
+            target="_blank"
             href={sponsor.url}
             class="bg-secondary p-2 px-3 transition-all rounded-lg hover:brightness-110"
           >
