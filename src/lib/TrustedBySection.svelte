@@ -108,7 +108,7 @@
     <p class="text-gray-300 font-medium italic">And many more communities!</p>
     <h2 class="text-3xl font-bold mt-3">Proud Sponsors</h2>
 
-    <a class="mt-1" href="https://gamefocal.com?ref=snailycad">
+    <a rel="noreferrer" target="_blank" class="mt-1" href="https://gamefocal.com?ref=snailycad">
       <img
         alt="GameFocal"
         width="150"
