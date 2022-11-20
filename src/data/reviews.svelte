@@ -1,4 +1,6 @@
 <script context="module" lang="ts">
+  import GamingFlaminImage from "../images/reviews/gaming_flamin.webp";
+  import AussieDropBearImage from "../images/reviews/aussie_drop_bear.webp";
   import AndyImage from "../images/reviews/andy.webp";
   import WhitigolImage from "../images/reviews/whitigol.webp";
   import CobraImage from "../images/reviews/cobra.webp";
@@ -14,16 +16,24 @@
 
   export const REVIEWS: { name: string; text: string; image: string }[] = [
     {
-      name: "Mr. Game Eagle",
+      name: "GamingFlamin",
       text: `
           <p>
-            I started using SnailyCAD a few months ago after searching for a few months for a different cad that wasn't used on Bubble. I downloaded the cad and joined the discord to find that this was a very easy install and the developer behind it cares about the project.
+            SnailyCAD is a fantastic CAD and I'm glad that I came across it. The installation is quite smooth. The dashboard is clean, straight to the point, and fast. The dispatcher panel that SnailyCAD has, gives dispatchers a lot more flexibility and control too. Citizen/User setup is a breeze! From the admin side, the level of customization is very high as well. You have complete control over the CAD and how it works for your community. The FiveM scripts that integrate with the CAD, work really well.
           </p>
           <br className="block w-full my-1" />
           <p>
-              With ideas I had about features I wanted to see in the cad I wasn't sure if they were possible. I compiled about a page full of features and they were done in less then a few days. This shows real dedication and I feel this is a really nice cad for being open source and free. I would recommend it to anyone looking for one.
+            In regards to support. It's excellent. Casper was happy to listen to my suggestions, and if you ever run into a snag, he will gladly help you out.
+          </p>
+          <br className="block w-full my-1" />
+          <p>
+            I recommend SnailyCAD to anyone who wants a great looking and easy to use CAD. The best part is that it is open source, free, actively supported, and superior to other options.
+          </p>
+          <br className="block w-full my-1" />
+          <p>
+            Thank you Casper, and to all the contributors for working on SnailyCAD over all these years! I'll keep following the project!
           </p>`,
-      image: MrGameEagleImage,
+      image: GamingFlaminImage,
     },
     {
       name: "jxck",
@@ -96,6 +106,19 @@ The design, the layout and the features are just perfect.</p>
       text: "I started using SnailyCAD about 6 or 7 months ago I'm very impressed with the layout and how everything works and the support. When people ask about a cad I have started to send them here because this is worth it more then a lot of other cads I have seen",
       image: CobraImage,
     },
+
+    {
+      name: "Mr. Game Eagle",
+      text: `
+          <p>
+            I started using SnailyCAD a few months ago after searching for a few months for a different cad that wasn't used on Bubble. I downloaded the cad and joined the discord to find that this was a very easy install and the developer behind it cares about the project.
+          </p>
+          <br className="block w-full my-1" />
+          <p>
+              With ideas I had about features I wanted to see in the cad I wasn't sure if they were possible. I compiled about a page full of features and they were done in less then a few days. This shows real dedication and I feel this is a really nice cad for being open source and free. I would recommend it to anyone looking for one.
+          </p>`,
+      image: MrGameEagleImage,
+    },
     {
       name: "Andy",
       text: "This is the best cad out there, it's free, it looks good, it has very good feature, and reported bugs are fixed very quickly.",
@@ -136,7 +159,7 @@ The design, the layout and the features are just perfect.</p>
 <br className="block w-full my-1" />
 <p>Casper is very quick with support. SnailyCAD is fully customizable and very easy to edit the code (if you have the experience)</p>
 `,
-      image: "",
+      image: AussieDropBearImage,
     },
     {
       name: "Niki",
