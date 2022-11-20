@@ -17,6 +17,8 @@
   canonical={PAGE_URL}
   keywords="CAD/MDT system, fivem cad/mdt, open source, roleplay, law enforcement, free CAD/MDT, dispatching "
   twitter={{
+    image: "https://snailycad.caspertheghost.me/logos/SnailyCAD_logo.png",
+    imageAlt: "SnailyCAD",
     title: PAGE_TITLE,
     description: PAGE_DESC,
     card: "summary",
@@ -26,6 +28,14 @@
     description: PAGE_DESC,
     url: PAGE_URL,
     type: "website",
+    images: [
+      {
+        url: "https://snailycad.caspertheghost.me/logos/SnailyCAD_logo.png",
+        alt: "SnailyCAD",
+        width: 710,
+        height: 710,
+      },
+    ],
   }}
 />
 
