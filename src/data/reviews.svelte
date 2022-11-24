@@ -13,6 +13,7 @@
   import LincolnMillerImage from "../images/reviews/lincoln_miller.webp";
   import M4KImage from "../images/reviews/m4k.webp";
   import MetzeralImage from "../images/reviews/metzeral.webp";
+  import Lilian24Image from "../images/reviews/lilian24.webp";
 
   export const REVIEWS: { name: string; text: string; image: string }[] = [
     {
@@ -120,11 +121,6 @@ The design, the layout and the features are just perfect.</p>
       image: MrGameEagleImage,
     },
     {
-      name: "Andy",
-      text: "This is the best cad out there, it's free, it looks good, it has very good feature, and reported bugs are fixed very quickly.",
-      image: AndyImage,
-    },
-    {
       name: "Whitigol",
       text: `<p>
             SnailyCAD has truly transformed my online CAD/MDT experience. Being free, open-source, well documented, and self-hosted, makes it the perfect tool to use.
@@ -138,6 +134,26 @@ The design, the layout and the features are just perfect.</p>
             With it's engaging User Interface, and all-around great features. I would definitely recommend using SnailyCAD!
           </p>`,
       image: WhitigolImage,
+    },
+    {
+      name: "Lilian24",
+      text: `<p>I have rarely seen such an active owner and team of contributors. Bug fixes and small additions almost every day. And all this on a 100% Open-source project and very well documented allowing us to have a pretty good customization freedom.
+          </p>
+          <br className="block w-full my-1" />
+          <p>
+            I am very happy to have seen this 'CAD' on my way and to have seen that it is still maintained and updated.
+          </p>
+          <br className="block w-full my-1" />
+          <p>
+            I would update my opinion later, but for now with the experience I had during the installation and configuration, I can only recommend.
+          </p>`,
+
+      image: Lilian24Image,
+    },
+    {
+      name: "Andy",
+      text: "This is the best CAD/MDT out there, it's free, it looks good, it has very good features, and reported bugs are fixed very quickly.",
+      image: AndyImage,
     },
     {
       name: "Metzeral",
