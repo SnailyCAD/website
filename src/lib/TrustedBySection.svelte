@@ -1,15 +1,18 @@
 <script lang="ts">
+  import { A11y, Keyboard, Lazy } from "swiper";
+  import { Swiper, SwiperSlide } from "swiper/svelte";
   import EotsImage from "../images/communities/eots.webp";
   import Exia from "../images/communities/exia.webp";
   import LadojRP from "../images/communities/ladojrp.webp";
   import LblRP from "../images/communities/lblrp.webp";
   import MuricaRP from "../images/communities/muricarp.webp";
   import NeonCityRP from "../images/communities/neoncityrp.webp";
+  import CBLRP from "../images/communities/czechblueline.webp";
+  import VisionRP from "../images/communities/visionrp.webp";
 
   interface Community {
     name: string;
     discordUrl: string;
-    userCount: number;
     image: any;
   }
 
@@ -18,37 +21,41 @@
       name: "Enemy Of the State RP",
       discordUrl: "https://discord.gg/eots",
       image: EotsImage,
-      userCount: 2400,
+    },
+    {
+      name: "VisionRP",
+      discordUrl: "https://discord.gg/visionrp",
+      image: VisionRP,
     },
     {
       name: "ExiaRP™",
       discordUrl: "https://discord.gg/sZAawBp",
       image: Exia,
-      userCount: 50_000,
     },
     {
       name: "LBL RP",
       discordUrl: "https://discord.gg/lblrp",
       image: LblRP,
-      userCount: 230,
     },
     {
       name: "Los Angeles DOJRP",
       discordUrl: "https://discord.gg/ladojrp",
       image: LadojRP,
-      userCount: 6800,
     },
     {
       name: "Neon City RP",
       discordUrl: "https://discord.gg/neoncityrp",
       image: NeonCityRP,
-      userCount: 130,
     },
     {
       name: "Murica RP",
-      discordUrl: "https://discord.com/invite/7uVZAY49th",
+      discordUrl: "https://discord.gg/7uVZAY49th",
       image: MuricaRP,
-      userCount: 170,
+    },
+    {
+      name: "CzechBlueLine",
+      discordUrl: "https://discord.gg/p6wUykNPmf",
+      image: CBLRP,
     },
   ];
 
@@ -83,26 +90,40 @@
     <h1 class="max-w-5xl text-3xl font-black text-center sm:text-4xl md:text-5xl lg:text-6xl">
       Trusted by top communities
     </h1>
-    <div class="flex justify-center gap-7 max-w-8xl mt-14">
-      {#each communities as community}
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href={community.discordUrl}
-          class="flex flex-col items-center justify-center gap-y-6 bg-secondary hover:brightness-125 transition p-6 rounded-xl"
-        >
-          <img
-            width="160"
-            height="160"
-            src={community.image}
-            alt={community.name}
-            class="w-40 max-w-5xl rounded-lg drop-shadow-lg"
-          />
-          <h2 class="text-base font-semibold text-center text-gray-100">
-            {community.name}
-          </h2>
-        </a>
-      {/each}
+
+    <div class="mt-14 w-full mx-auto max-w-7xl px-5">
+      <Swiper
+        keyboard
+        preloadImages
+        a11y={{ enabled: true }}
+        lazy
+        modules={[Keyboard, Lazy, A11y]}
+        spaceBetween={15}
+        slidesPerView={5.2}
+      >
+        {#each communities as community}
+          <SwiperSlide height={500}>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href={community.discordUrl}
+              class="flex flex-col items-center justify-center gap-y-6 bg-secondary hover:brightness-125 transition p-6 rounded-xl w-[230px]"
+            >
+              <img
+                width="160"
+                height="160"
+                src={community.image}
+                alt={community.name}
+                class="w-40 max-w-5xl rounded-lg drop-shadow-lg"
+              />
+
+              <h2 class="text-base font-semibold text-center text-gray-100">
+                {community.name}
+              </h2>
+            </a>
+          </SwiperSlide>
+        {/each}
+      </Swiper>
     </div>
 
     <p class="text-gray-300 font-medium italic">And many more communities!</p>
@@ -115,6 +136,7 @@
         src="https://gamefocal.com/assets/dash/images/brand/logo.png"
       />
     </a>
+
     <ul class="flex flex-wrap gap-2">
       {#each sponsors as sponsor}
         <li>
