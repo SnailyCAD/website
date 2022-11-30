@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { A11y, Keyboard, Lazy } from "swiper";
+  import { A11y, Autoplay, Keyboard, Lazy } from "swiper";
   import { Swiper, SwiperSlide } from "swiper/svelte";
   import EotsImage from "../images/communities/eots.webp";
   import Exia from "../images/communities/exia.webp";
@@ -93,13 +93,36 @@
 
     <div class="mt-14 w-full mx-auto max-w-7xl px-5">
       <Swiper
+        breakpoints={{
+          [560]: {
+            slidesPerView: 1.5,
+            spaceBetween: 0,
+          },
+          [634]: {
+            slidesPerView: 2.5,
+            spaceBetween: 0,
+          },
+          [882]: {
+            slidesPerView: 3.5,
+            spaceBetween: 0,
+          },
+          [1070]: {
+            slidesPerView: 4.5,
+            spaceBetween: 0,
+          },
+          [1400]: {
+            slidesPerView: 4.75,
+            spaceBetween: 0,
+          },
+        }}
         keyboard
         preloadImages
         a11y={{ enabled: true }}
         lazy
-        modules={[Keyboard, Lazy, A11y]}
-        spaceBetween={15}
-        slidesPerView={5.2}
+        autoplay
+        modules={[Keyboard, Lazy, A11y, Autoplay]}
+        spaceBetween={0}
+        slidesPerView={1.2}
       >
         {#each communities as community}
           <SwiperSlide height={500}>
