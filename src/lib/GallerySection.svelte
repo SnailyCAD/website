@@ -71,8 +71,8 @@
     </h1>
 
     <p class="my-7 max-w-3xl text-lg text-center text-gray-300">
-      A list of images that show the most important aspects of a CAD/MDT. There are many, many more
-      features that can't be shown below.
+      An image gallery showcasing the most important aspects of SnailyCAD. There are many more
+      features that could not be shown here.
     </p>
 
     <div class="w-full mt-5">

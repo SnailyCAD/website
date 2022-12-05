@@ -2,7 +2,7 @@
   const FEATURES = [
     {
       name: "Self-hosted",
-      text: "SnailyCAD is a self-hosted CAD/MDT. Host SnailyCAD wherever and whenever to your hosting needs.",
+      text: "SnailyCAD is a CAD/MDT that you can host yourself, giving you complete control over where and how it is hosted.",
     },
     {
       name: "Localization",
@@ -10,19 +10,19 @@
     },
     {
       name: "Customization",
-      text: "Easily customize SnailyCAD to your likings by managing the CAD-Settings and disabling or enabling features.",
+      text: "Easily customize SnailyCAD to your liking by managing the CAD-Settings and disabling or enabling features.",
     },
     {
       name: "Realtime",
-      text: "Almost everything syncs in realtime to all clients such as incoming calls, status updates, active incidents, etc.",
+      text: "Almost everything syncs in realtime to all clients, such as incoming calls, status updates, active incidents, etc.",
     },
     {
       name: "Great Support & Constant updates",
-      text: "We try to help as much as we can. Bugs and feature requests are handled with care and speed.",
+      text: "We try to help as much as possible. We handle bugs and feature requests with care and speed.",
     },
     {
       name: "Great Integrations",
-      text: "SnailyCAD has many integrations such as Discord Roles Sync, Discord Webhooks and FiveM integrations.",
+      text: "SnailyCAD has many great integrations, including Discord Roles Sync, Discord Webhooks, and FiveM integrations.",
     },
   ];
 </script>

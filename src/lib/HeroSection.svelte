@@ -15,8 +15,8 @@
         Modern-looking, free and open-source CAD/MDT for FiveM.
       </h1>
       <p class="max-w-3xl text-center text-gray-300/90 mt-4 sm:text-[1.1rem] md:text-[1.4rem]">
-        SnailyCAD is a free and open-source CAD/MDT made to feel and look modern with all the needed
-        features to fit your roleplay needs.
+        SnailyCAD is a modern, user-friendly CAD/MDT system that is free and open-source, with all
+        the features you need for your roleplaying needs.
       </p>
 
       <div class="my-9 flex flex-col justify-center items-center md:flex-row gap-2">
