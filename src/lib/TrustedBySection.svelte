@@ -1,13 +1,13 @@
 <script lang="ts">
   import { A11y, Autoplay, Keyboard, Lazy } from "swiper";
   import { Swiper, SwiperSlide } from "swiper/svelte";
+  import CBLRP from "../images/communities/czechblueline.webp";
   import EotsImage from "../images/communities/eots.webp";
   import Exia from "../images/communities/exia.webp";
   import LadojRP from "../images/communities/ladojrp.webp";
   import LblRP from "../images/communities/lblrp.webp";
   import MuricaRP from "../images/communities/muricarp.webp";
   import NeonCityRP from "../images/communities/neoncityrp.webp";
-  import CBLRP from "../images/communities/czechblueline.webp";
   import VisionRP from "../images/communities/visionrp.webp";
 
   interface Community {
@@ -160,9 +160,9 @@
       />
     </a>
 
-    <ul class="flex flex-wrap gap-2">
+    <ul class="flex flex-wrap justify-center gap-2">
       {#each sponsors as sponsor}
-        <li>
+        <li class="mb-3">
           <a
             rel="noreferrer"
             target="_blank"
