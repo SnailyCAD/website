@@ -9,6 +9,9 @@
   import MuricaRP from "../images/communities/muricarp.webp";
   import NeonCityRP from "../images/communities/neoncityrp.webp";
   import VisionRP from "../images/communities/visionrp.webp";
+  import KKRP from "../images/communities/kkrp.webp";
+  import DOSARP from "../images/communities/dosarp.webp";
+  import GTA_CITY_RP from "../images/communities/gta-city-rp.webp";
 
   interface Community {
     name: string;
@@ -18,24 +21,34 @@
 
   const communities: Community[] = [
     {
-      name: "Enemy Of the State RP",
-      discordUrl: "https://discord.gg/eots",
-      image: EotsImage,
-    },
-    {
       name: "VisionRP",
       discordUrl: "https://discord.gg/visionrp",
       image: VisionRP,
     },
     {
-      name: "ExiaRP™",
-      discordUrl: "https://discord.gg/sZAawBp",
-      image: Exia,
+      name: "Enemy Of the State RP",
+      discordUrl: "https://discord.gg/eots",
+      image: EotsImage,
     },
     {
       name: "LBL RP",
       discordUrl: "https://discord.gg/lblrp",
       image: LblRP,
+    },
+    {
+      name: "KKRP.CZ - CZ/SK RP",
+      discordUrl: "https://discord.gg/Eb3rH7c",
+      image: KKRP,
+    },
+    {
+      name: "CzechBlueLine",
+      discordUrl: "https://discord.gg/p6wUykNPmf",
+      image: CBLRP,
+    },
+    {
+      name: "ExiaRP™",
+      discordUrl: "https://discord.gg/sZAawBp",
+      image: Exia,
     },
     {
       name: "Los Angeles DOJRP",
@@ -53,9 +66,14 @@
       image: MuricaRP,
     },
     {
-      name: "CzechBlueLine",
-      discordUrl: "https://discord.gg/p6wUykNPmf",
-      image: CBLRP,
+      name: "DOSARP",
+      discordUrl: "https://discord.gg/dosarp",
+      image: DOSARP,
+    },
+    {
+      name: "GTA City RP",
+      discordUrl: "https://gtacityrp.fr",
+      image: GTA_CITY_RP,
     },
   ];
 
@@ -123,6 +141,7 @@
         modules={[Keyboard, Lazy, A11y, Autoplay]}
         spaceBetween={0}
         slidesPerView={1.2}
+        loop
       >
         {#each communities as community}
           <SwiperSlide height={500}>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Exo 2";
-  src: url("../static/fonts/Exo2.ttf");
+  src: url("./data/fonts/Exo2.ttf");
   font-weight: 100 1000;
   font-stretch: 25% 151%;
   font-display: swap;
