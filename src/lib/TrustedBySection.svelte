@@ -70,11 +70,6 @@
       discordUrl: "https://discord.gg/dosarp",
       image: DOSARP,
     },
-    {
-      name: "GTA City RP",
-      discordUrl: "https://gtacityrp.fr",
-      image: GTA_CITY_RP,
-    },
   ];
 
   const sponsors = [
