@@ -11,7 +11,6 @@
   import VisionRP from "../images/communities/visionrp.webp";
   import KKRP from "../images/communities/kkrp.webp";
   import DOSARP from "../images/communities/dosarp.webp";
-  import GTA_CITY_RP from "../images/communities/gta-city-rp.webp";
 
   interface Community {
     name: string;
@@ -92,6 +91,10 @@
     {
       name: "GamingFlamin",
       url: "https://github.com/GamingFlamin",
+    },
+    {
+      name: "Local9",
+      url: "https://github.com/Local9",
     },
   ];
 </script>
