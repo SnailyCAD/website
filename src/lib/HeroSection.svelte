@@ -53,17 +53,12 @@
       </div>
     </div>
 
-    <div class="flex items-center justify-center w-full h-[550px] overflow-hidden mt-5">
-      <div
-        class="w-full border-2 border-[#20212C] h-[550px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
-      >
+    <div class="flex items-center justify-center w-full h-[550px]  overflow-hidden mt-5 px-5">
+      <div class="w-full border-2 border-[#20212C] h-full min-w-0 drop-shadow-xl shadow-[#20212C]">
         <img
-          class="h-[794px] min-w-[1020px] "
-          width="1020"
-          height="794"
-          draggable="false"
-          alt="Dispatch Page"
+          class="h-full w-full object-cover object-top min-w-0 max-w-full"
           src={DispatchPageImage}
+          alt="Dispatch Page"
         />
       </div>
     </div>
