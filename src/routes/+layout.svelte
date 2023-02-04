@@ -6,7 +6,7 @@
   import "../app.css";
 
   const PAGE_TITLE = "SnailyCAD - Free and open-source CAD/MDT for FiveM";
-  const PAGE_URL = "https://snailycad.caspertheghost.me";
+  const PAGE_URL = "https://snailycad.org";
   const PAGE_DESC =
     "SnailyCAD is a free and open-source CAD/MDT system with all the wanted features to fit your roleplay needs.";
 </script>
@@ -17,7 +17,7 @@
   canonical={PAGE_URL}
   keywords="CAD/MDT system, fivem cad/mdt, open source, roleplay, law enforcement, free CAD/MDT, dispatching "
   twitter={{
-    image: "https://snailycad.caspertheghost.me/logos/SnailyCAD_logo.png",
+    image: "https://snailycad.org/logos/SnailyCAD_logo.png",
     imageAlt: "SnailyCAD",
     title: PAGE_TITLE,
     description: PAGE_DESC,
@@ -30,7 +30,7 @@
     type: "website",
     images: [
       {
-        url: "https://snailycad.caspertheghost.me/logos/SnailyCAD_logo.png",
+        url: "https://snailycad.org/logos/SnailyCAD_logo.png",
         alt: "SnailyCAD",
         width: 710,
         height: 710,

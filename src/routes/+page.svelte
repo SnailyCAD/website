@@ -10,7 +10,7 @@
 <svelte:head>
   <title>SnailyCAD - The Free and open-source CAD/MDT for FiveM</title>
 
-  <link rel="canonical" href="https://snailycad.caspertheghost.me" />
+  <link rel="canonical" href="https://snailycad.org" />
 </svelte:head>
 
 <HeroSection />
