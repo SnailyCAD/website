@@ -1,3 +1,3 @@
 # SnailyCAD's website
 
-[https://snailycad.caspertheghost.me ](https://snailycad.caspertheghost.me)
+[snailycad.org](https://snailycad.org)

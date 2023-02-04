@@ -106,7 +106,7 @@
 
     <a
       class="mt-5 underline text-gray-300 hover:text-white"
-      href="https://cad-docs.caspertheghost.me/docs/features"
+      href="https://docs.snailycad.org/docs/features"
       target="_blank"
       rel="noreferrer"
     >
