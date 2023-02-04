@@ -128,29 +128,37 @@
         <ul class="flex flex-col gap-y-3">
           <li>
             <a
-              href="#features"
+              on:click={handleToggleMobileNav}
+              href="/#features"
               class="text-gray-300 font-medium transition-colors hover:text-white"
             >
               Top Features
             </a>
           </li>
           <li>
-            <a href="#reviews" class="text-gray-300 font-medium transition-colors hover:text-white"
-              >Reviews</a
-            >
-          </li>
-          <li>
-            <a href="#gallery" class="text-gray-300 font-medium transition-colors hover:text-white"
-              >Gallery</a
-            >
-          </li>
-          <li>
-            <a href="/manager" class="text-gray-300 font-medium transition-colors hover:text-white"
-              >Manager</a
+            <a
+              on:click={handleToggleMobileNav}
+              href="/#reviews"
+              class="text-gray-300 font-medium transition-colors hover:text-white">Reviews</a
             >
           </li>
           <li>
             <a
+              on:click={handleToggleMobileNav}
+              href="/#gallery"
+              class="text-gray-300 font-medium transition-colors hover:text-white">Gallery</a
+            >
+          </li>
+          <li>
+            <a
+              on:click={handleToggleMobileNav}
+              href="/manager"
+              class="text-gray-300 font-medium transition-colors hover:text-white">Manager</a
+            >
+          </li>
+          <li>
+            <a
+              on:click={handleToggleMobileNav}
               target="_blank"
               rel="noreferrer"
               href={DOCS_URL}
@@ -159,7 +167,7 @@
           </li>
         </ul>
 
-        <ul class="flex gap-x-5 mt-3">
+        <ul class="flex gap-x-5 mt-5">
           <li>
             <a href={GITHUB_URL} class="font-medium block transition-colors hover:text-white">
               <svg
