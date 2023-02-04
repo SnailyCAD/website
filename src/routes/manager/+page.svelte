@@ -45,7 +45,7 @@
   />
 </svelte:head>
 
-<section class="h-[1000px] pt-40 bg-primary">
+<section class="h-[1100px] pt-40 bg-primary">
   <div class="max-w-5xl mx-auto w-full gap-y-6">
     <div class="px-4 md:px-0 flex items-center flex-col">
       <h1
@@ -92,9 +92,9 @@
       </div>
     </div>
 
-    <div class="flex items-center justify-center w-full h-[550px] overflow-hidden mt-5">
+    <div class="flex items-center justify-center w-full h-[750px] overflow-hidden mt-5">
       <div
-        class="w-full border-2 border-[#20212C] h-[550px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
+        class="w-full border-2 border-[#20212C] h-[750px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
       >
         <img
           class="h-[1000px] min-w-[1020px] "
