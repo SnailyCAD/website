@@ -48,6 +48,11 @@
           >
         </li>
         <li>
+          <a href="/manager" class="text-gray-300 font-medium transition-colors hover:text-white"
+            >Manager</a
+          >
+        </li>
+        <li>
           <a
             target="_blank"
             rel="noreferrer"

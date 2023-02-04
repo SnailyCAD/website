@@ -1,5 +1,5 @@
 <script lang="ts">
-  import FeaturesSection from "$lib/FeaturesSection.svelte";
+  import FeaturesSection from "$lib/manager/FeaturesSection.svelte";
   import { DOCS_URL } from "$lib/Header.svelte";
   import { onMount } from "svelte";
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
