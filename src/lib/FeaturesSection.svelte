@@ -27,7 +27,7 @@
   ];
 </script>
 
-<section id="features" class="w-full px-4 md:px-0 pt-36">
+<section id="features" class="w-full px-4 md:px-0 pt-44">
   <div class="mx-auto max-w-5xl flex flex-col items-center justify-center">
     <h1
       class="max-w-5xl text-3xl font-black text-center text-primary sm:text-4xl md:text-5xl lg:text-6xl"

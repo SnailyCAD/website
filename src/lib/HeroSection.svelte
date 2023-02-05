@@ -58,9 +58,9 @@
         class="w-full border-2 border-[#20212C] h-[550px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
       >
         <img
-          class="h-[794px] min-w-[1020px] "
+          class="h-[796px] min-w-[1020px] "
           width="1020"
-          height="794"
+          height="796"
           draggable="false"
           alt="Dispatch Page"
           src={DispatchPageImage}
