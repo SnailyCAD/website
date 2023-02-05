@@ -1,38 +1,10 @@
 <script lang="ts">
   import FeaturesSection from "$lib/manager/FeaturesSection.svelte";
   import { DOCS_URL } from "$lib/Header.svelte";
-  import { onMount } from "svelte";
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
 
-  let LATEST_DOWNLOAD_URL = "#";
-  let HAS_FETCHED = false;
-  $: isLoading = true;
-
-  const LATEST_RELEASES_URL =
-    "https://api.github.com/repos/WhitigolProd/snailycad-manager/releases/latest";
-
-  async function getLatestRelease() {
-    if (HAS_FETCHED) return;
-    HAS_FETCHED = true;
-
-    const res = await fetch(LATEST_RELEASES_URL, {
-      cache: "force-cache",
-    });
-
-    if (!res.ok) {
-      isLoading = false;
-      return;
-    }
-
-    const json = await res.json();
-
-    if (json.assets) {
-      LATEST_DOWNLOAD_URL = json.assets[0].browser_download_url;
-      isLoading = false;
-    }
-  }
-
-  onMount(() => getLatestRelease());
+  /** @type {import('./+page.server.ts').PageData} */
+  export let data;
 </script>
 
 <svelte:head>
@@ -61,10 +33,10 @@
         <a
           rel="noreferrer"
           target="_blank"
-          href={DOCS_URL}
+          href={data.downloadUrl}
           class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group "
         >
-          <span>Start using SnailyCAD</span>
+          <span>Download SnailyCAD Manager</span>
           <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,13 +53,12 @@
           </span>
         </a>
         <a
-          aria-disabled={isLoading}
           rel="noreferrer"
           target="_blank"
-          href={LATEST_DOWNLOAD_URL}
+          href={DOCS_URL}
           class="text-lg p-3 px-5 hover:bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
         >
-          {isLoading ? "Loading..." : " Download SnailyCAD Manager"}
+          SnailyCAD Documentation
         </a>
       </div>
     </div>
