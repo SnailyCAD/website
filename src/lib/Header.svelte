@@ -54,17 +54,17 @@
 
       <ul class="hidden gap-x-6 md:flex">
         <li>
-          <a href="#features" class="text-gray-300 font-medium transition-colors hover:text-white">
+          <a href="/#features" class="text-gray-300 font-medium transition-colors hover:text-white">
             Top Features
           </a>
         </li>
         <li>
-          <a href="#reviews" class="text-gray-300 font-medium transition-colors hover:text-white"
+          <a href="/#reviews" class="text-gray-300 font-medium transition-colors hover:text-white"
             >Reviews</a
           >
         </li>
         <li>
-          <a href="#gallery" class="text-gray-300 font-medium transition-colors hover:text-white"
+          <a href="/#gallery" class="text-gray-300 font-medium transition-colors hover:text-white"
             >Gallery</a
           >
         </li>
