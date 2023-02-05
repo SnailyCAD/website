@@ -16,18 +16,23 @@
   <div class="md:flex justify-between h-full w-full max-w-5xl">
     <ul class="flex flex-col mt-6 gap-y-3">
       <li>
-        <a href="#features" class="font-medium hover:underline transition-colors hover:text-white">
+        <a href="/#features" class="font-medium hover:underline transition-colors hover:text-white">
           Top Features
         </a>
       </li>
       <li>
-        <a href="#reviews" class="font-medium hover:underline transition-colors hover:text-white"
+        <a href="/#reviews" class="font-medium hover:underline transition-colors hover:text-white"
           >Reviews</a
         >
       </li>
       <li>
-        <a href="#gallery" class="font-medium hover:underline transition-colors hover:text-white"
+        <a href="/#gallery" class="font-medium hover:underline transition-colors hover:text-white"
           >Gallery</a
+        >
+      </li>
+      <li>
+        <a href="/manager" class="font-medium hover:underline transition-colors hover:text-white"
+          >SnailyCAD Manager</a
         >
       </li>
       <li>

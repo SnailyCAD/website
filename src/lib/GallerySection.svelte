@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { A11y, Keyboard, Lazy } from "swiper";
+  import { A11y, Autoplay, Keyboard, Lazy } from "swiper";
   import { Swiper, SwiperSlide } from "swiper/svelte";
   import "swiper/css/bundle";
 
@@ -81,22 +81,23 @@
         preloadImages
         a11y={{ enabled: true }}
         lazy
-        modules={[Keyboard, Lazy, A11y]}
+        modules={[Keyboard, Lazy, A11y, Autoplay]}
         loop
         spaceBetween={25}
         slidesPerView={1.5}
+        autoplay={{ delay: 3_500 }}
       >
         {#each images as image, idx}
           <SwiperSlide width={700}>
             <div class="bg-secondary p-10 rounded-xl lg:h-[580px] grid place-content-center">
               <img
-                class="select-none rounded-sm drop-shadow-lg max-h-[540px] object-contain"
+                class="select-none drop-shadow-lg max-h-[540px] object-contain rounded-md"
                 draggable="false"
                 src={image}
                 alt={image.toString()}
                 width="800px"
                 height="100%"
-                loading={idx === 0 ? "eager" : "lazy"}
+                loading={idx >= 1 ? "eager" : "lazy"}
               />
             </div>
           </SwiperSlide>
