@@ -5,7 +5,7 @@
   import HeroSection from "$lib/HeroSection.svelte";
   import ReviewsSection from "$lib/ReviewsSection.svelte";
   import TrustedBySection from "$lib/TrustedBySection.svelte";
-  import SvelteSeo from "svelte-seo/types/SvelteSeo";
+  import SvelteSeo from "svelte-seo";
 
   const PAGE_TITLE = "SnailyCAD - Free and open-source CAD/MDT for FiveM";
   const PAGE_URL = "https://snailycad.org";

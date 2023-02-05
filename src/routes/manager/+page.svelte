@@ -1,8 +1,8 @@
 <script lang="ts">
+  import SvelteSeo from "svelte-seo";
   import FeaturesSection from "$lib/manager/FeaturesSection.svelte";
   import { DOCS_URL } from "$lib/Header.svelte";
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
-  import SvelteSeo from "svelte-seo";
 
   /** @type {import('./+page.server.ts').PageData} */
   export let data;
