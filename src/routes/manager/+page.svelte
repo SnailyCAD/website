@@ -2,14 +2,46 @@
   import FeaturesSection from "$lib/manager/FeaturesSection.svelte";
   import { DOCS_URL } from "$lib/Header.svelte";
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
+  import SvelteSeo from "svelte-seo";
 
   /** @type {import('./+page.server.ts').PageData} */
   export let data;
+
+  const PAGE_TITLE = "SnailyCAD Manager - Manager your SnailyCAD instance with ease.";
+  const PAGE_URL = "https://snailycad.org/manager";
+  const PAGE_DESC =
+    "Manage your SnailyCAD instance with ease on Windows and soon other platforms with the SnailyCAD Manager App.";
 </script>
 
-<svelte:head>
-  <title>SnailyCAD Manager - Manager your SnailyCAD instance with ease.</title>
+<SvelteSeo
+  title={PAGE_TITLE}
+  description={PAGE_DESC}
+  canonical={PAGE_URL}
+  keywords="fivem cad, snailycad, snaily cad, snailycad manager"
+  twitter={{
+    image: "https://snailycad.org/logos/SnailyCAD_logo.png",
+    imageAlt: "SnailyCAD",
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    card: "summary",
+  }}
+  openGraph={{
+    title: PAGE_TITLE,
+    description: PAGE_DESC,
+    url: PAGE_URL,
+    type: "website",
+    images: [
+      {
+        url: "https://snailycad.org/logos/SnailyCAD_logo.png",
+        alt: "SnailyCAD",
+        width: 710,
+        height: 710,
+      },
+    ],
+  }}
+/>
 
+<svelte:head>
   <link rel="canonical" href="https://snailycad.org/manager" />
   <meta
     name="description"
