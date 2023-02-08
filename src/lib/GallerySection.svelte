@@ -89,7 +89,9 @@
       >
         {#each images as image, idx}
           <SwiperSlide width={700}>
-            <div class="bg-secondary p-10 rounded-xl lg:h-[580px] grid place-content-center">
+            <div
+              class="bg-secondary p-3 md:p-5 lg:p-10 rounded-xl lg:h-[580px] grid place-content-center"
+            >
               <img
                 class="select-none drop-shadow-lg max-h-[540px] object-contain rounded-md"
                 draggable="false"
