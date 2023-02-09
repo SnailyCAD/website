@@ -136,6 +136,26 @@ The design, the layout and the features are just perfect.</p>
       image: WhitigolImage,
     },
     {
+      name: "Eclipse",
+      text: `
+<p>Here is my in-depth review after launching SnailyCAD as a beta in my server. Firstly, Casper is amazing, he does his best to help you out with support, he is very experienced and he knows what he is doing. </p>
+<br className="block w-full my-1" />
+<p>"What is the performance like":</p>
+<br className="block w-full my-1" />
+
+<p>From my experience using it with about 50 users after about a week. It runs great, im on a light VPS with okish specs. I use the manager on a windows vps so this might be different for others, but its very light on my vps and runs very smoothly.</p>
+<br className="block w-full my-1" />
+
+<p>"Is it easy to install":</p>
+<br className="block w-full my-1" />
+
+<p>Yes and No. If you have absolutely zero experience with homehosting and things like that, its probably going to be a pain in your butt. When I first heard of SnailyCAD, it was very complicated for me to install by myself, but once I realized that Casper can help out, he made the process very smoothly. From my experience, I suggest using the manager app if your on windows, it makes your life 100000 times easier.</p>
+<br className="block w-full my-1" />
+
+<p>Overall. The CAD/MDT is great. It runs great, very light weight on your system, it looks very professional and modern. The dispatch and everything about it is very realistic, I have worked with my local police department and have gotten some experience in their call center and had pretty much free range of a REAL MDT/CAD. Let me tell you, its legit, the live map, the blips, everything about it is realistic, the front end may not look like a real CAD/MDT, but the backend and how it functions is pretty close to it. I want to give a huge shoutout to Casper with the amount of work he has put into this.</p>`,
+      image: null,
+    },
+    {
       name: "Lilian24",
       text: `<p>I have rarely seen such an active owner and team of contributors. Bug fixes and small additions almost every day. And all this on a 100% Open-source project and very well documented allowing us to have a pretty good customization freedom.
           </p>
