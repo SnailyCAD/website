@@ -17,7 +17,7 @@
   title={PAGE_TITLE}
   description={PAGE_DESC}
   canonical={PAGE_URL}
-  keywords="fivem cad, snailycad, snaily cad, snailycad manager"
+  keywords="fivem cad, snailycad, snaily cad, snailycad manager, manager app, manager"
   twitter={{
     image: "https://snailycad.org/logos/SnailyCAD_logo.png",
     imageAlt: "SnailyCAD",
