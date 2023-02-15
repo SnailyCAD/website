@@ -1,2 +1,7 @@
 user-agent: *
 disallow:
+
+# disallow the _app directory
+
+user-agent: *
+disallow: /_app/
