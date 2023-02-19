@@ -1,7 +1,6 @@
 user-agent: *
 disallow:
 
-# disallow the _app directory
-
+## disallow any JavaScript file in the _app directory
 user-agent: *
-disallow: /_app/
+disallow: /_app/*.js
