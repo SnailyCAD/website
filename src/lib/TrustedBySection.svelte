@@ -100,6 +100,10 @@
       name: "WhitigolProd",
       url: "https://github.com/WhitigolProd",
     },
+    {
+      name: "Enzo Bonolis",
+      url: "https://github.com/SunlightKim",
+    },
   ];
 </script>
 
