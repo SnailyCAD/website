@@ -102,7 +102,7 @@
     },
     {
       name: "Enzo Bonolis",
-      url: "https://github.com/SunlightKim",
+      url: "https://github.com/LazyCalypso",
     },
     {
       name: "zahrtman2006",
