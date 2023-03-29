@@ -108,6 +108,10 @@
       name: "zahrtman2006",
       url: "https://github.com/zahrtman2006",
     },
+    {
+      name: ".LegacyMaps",
+      url: "https://github.com/Legacy-TacticalGamingInteractive",
+    },
   ];
 </script>
 
