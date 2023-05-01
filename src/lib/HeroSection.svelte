@@ -24,7 +24,7 @@
           rel="noreferrer"
           target="_blank"
           href={DOCS_URL}
-          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group "
+          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
         >
           <span>Start using SnailyCAD</span>
           <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">
@@ -58,7 +58,7 @@
         class="w-full border-2 border-[#20212C] h-[550px] min-w-[1020px] drop-shadow-xl shadow-[#20212C]"
       >
         <img
-          class="h-[796px] min-w-[1020px] "
+          class="h-[796px] min-w-[1020px]"
           width="1020"
           height="796"
           draggable="false"

@@ -15,7 +15,7 @@
       <div class="my-9 flex flex-col justify-center items-center md:flex-row gap-2">
         <a
           href="/"
-          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group "
+          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
         >
           <span>Return home</span>
           <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">

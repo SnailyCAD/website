@@ -1,24 +1,31 @@
-name: Check eslint & prettier
+name: CI (Typecheck & Lint)
 
 on: [push, pull_request]
 
 jobs:
-  tsc-api:
+  build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
-      - name: Run lint
-        run: "npm run lint"
+      - name: Linting lint
+        run: pnpm run lint
+
+      - name: Svelte check
+        run: pnpm run check
+
+      - name: Typecheck app
+        run: pnpm run typecheck
