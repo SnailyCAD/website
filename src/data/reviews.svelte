@@ -14,6 +14,10 @@
   import M4KImage from "../images/reviews/m4k.webp";
   import MetzeralImage from "../images/reviews/metzeral.webp";
   import Lilian24Image from "../images/reviews/lilian24.webp";
+  import JsonImage from "../images/reviews/json.webp";
+  import OrbitaireImage from "../images/reviews/orbitaire.webp";
+  import ChieftainImage from "../images/reviews/chieftain.webp";
+  import EclipseImage from "../images/reviews/eclipse.webp";
 
   export const REVIEWS: { name: string; text: string; image: string }[] = [
     {
@@ -78,7 +82,7 @@ The design, the layout and the features are just perfect.</p>
       text: `
       <p>SnailyCAD is one of the easiest to set up and has many functions. Unsure how this CAD/MDT is free due to the hard work put into it and the amazing functions it comes with.</p>
       <br className="block w-full my-1" />
-      <p>Support is really quick and useful. I’m impressed with the whole Cad and how it works, cant wait to see what V5 brings!</p>
+      <p>Support is really quick and useful. I'm impressed with the whole Cad and how it works, cant wait to see what V5 brings!</p>
       `,
       image: M4KImage,
     },
@@ -153,7 +157,28 @@ The design, the layout and the features are just perfect.</p>
 <br className="block w-full my-1" />
 
 <p>Overall. The CAD/MDT is great. It runs great, very light weight on your system, it looks very professional and modern. The dispatch and everything about it is very realistic, I have worked with my local police department and have gotten some experience in their call center and had pretty much free range of a REAL MDT/CAD. Let me tell you, its legit, the live map, the blips, everything about it is realistic, the front end may not look like a real CAD/MDT, but the backend and how it functions is pretty close to it. I want to give a huge shoutout to Casper with the amount of work he has put into this.</p>`,
-      image: null,
+      image: EclipseImage,
+    },
+    {
+      name: "Chieftain",
+      text: `It can rightly be considered the best MDT we have used in our experience. The developer tries every day and considers absolutely all proposals and is interested in them. The speed with which these offers are made is also amazing.
+Our team would like to thank CasperTheGhost for such a great MDT
+`,
+      image: ChieftainImage,
+    },
+    {
+      image: OrbitaireImage,
+      name: "Orbitaire",
+      text: `
+      I want to thank Casper and Local9, I've used and inputted into a lot of open source projects and to put it bluntly a lot of developers kinda don't care sometimes. And Casper actually cares it's nice to see. I haven't even used SnailyCAD since October of last year and I see slot of advancements have been made.`,
+    },
+    {
+      image: JsonImage,
+      name: "Js0n",
+      text: `
+      <p>It is not often that you find an open-source project that not only meets, but exceeds your expectations. Whether it’s the customizability, ease of use, documentation, customer support, or continued development, this has it all. </p>
+      <br className="block w-full my-1" />
+      <p>It’s nice to see that there are still actual developers, not the guys who repost basic for loops on the forums and demand money, who are willing to give away their work so others can enjoy. As a computer science student, I’m am more than blown away at the level of creativity and effort put into this project. I only hope the community follows in Casper’s footsteps 👌</p>`,
     },
     {
       name: "Lilian24",

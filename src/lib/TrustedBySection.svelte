@@ -193,7 +193,7 @@
       />
     </a>
 
-    <ul class="flex flex-wrap justify-center gap-2">
+    <ul class="flex flex-wrap justify-center gap-2 max-w-3xl">
       {#each sponsors as sponsor}
         <li class="mb-3">
           <a
