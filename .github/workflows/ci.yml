@@ -26,6 +26,3 @@ jobs:
 
       - name: Svelte check
         run: pnpm run check
-
-      - name: Typecheck app
-        run: pnpm run typecheck

@@ -15,7 +15,7 @@
   interface Community {
     name: string;
     discordUrl: string;
-    image: any;
+    image: string;
   }
 
   const communities: Community[] = [

@@ -1,6 +1,5 @@
 <script context="module">
   import { page } from "$app/stores";
-  import { DOCS_URL } from "$lib/Header.svelte";
 </script>
 
 <section class="h-[1000px] pt-40 bg-primary">
