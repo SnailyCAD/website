@@ -158,7 +158,7 @@
         loop
       >
         {#each communities as community}
-          <SwiperSlide height={500}>
+          <SwiperSlide>
             <a
               rel="noreferrer"
               target="_blank"
