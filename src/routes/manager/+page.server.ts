@@ -10,7 +10,7 @@ const LATEST_RELEASES_URL =
 /** @type {import('./$types').PageLoad} */
 export async function load({ fetch }): Promise<PageData> {
   const res = await fetch(LATEST_RELEASES_URL, {
-    cache: "force-cache",
+    cache: "no-cache",
   });
 
   if (!res.ok) {
