@@ -3,8 +3,7 @@
   import FeaturesSection from "$lib/manager/FeaturesSection.svelte";
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
 
-  /** @type {import('./+page.server.ts').PageData} */
-  export let data;
+  export let data: import("./+page.server").PageData;
 
   const DOCS_URL = "https://docs.snailycad.org/docs/installations/methods/manager";
   const PAGE_TITLE = "SnailyCAD Manager - Manager your SnailyCAD instance with ease.";

@@ -62,7 +62,7 @@
     </ul>
 
     <p class="mt-7 md:mt-0">
-      Created by <a {...linkProps} href={PORTFOLIO_URL}>CasperTheGhost</a> and{" "}
+      Created by <a {...linkProps} href={PORTFOLIO_URL}>Casper Iversen</a> and{" "}
       <a {...linkProps} href={DISCORD_URL}>the amazing community</a>.
     </p>
   </div>

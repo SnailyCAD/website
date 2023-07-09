@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script context="module" lang="ts" >
   import GamingFlaminImage from "../images/reviews/gaming_flamin.webp";
   import AussieDropBearImage from "../images/reviews/aussie_drop_bear.webp";
   import AndyImage from "../images/reviews/andy.webp";
