@@ -7,7 +7,7 @@
     rel: "noreferrer",
   };
 
-  const PORTFOLIO_URL = "https://caspertheghost.me";
+  const PORTFOLIO_URL = "https://casperiv.dev";
 </script>
 
 <footer
