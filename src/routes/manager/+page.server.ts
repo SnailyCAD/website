@@ -5,7 +5,7 @@ export interface PageData {
 }
 
 const LATEST_RELEASES_URL =
-  "https://api.github.com/repos/WhitigolProd/snailycad-manager/releases/latest";
+  "https://api.github.com/repos/SnailyCAD-Manager/v2/releases/latest";
 
 /** @type {import('./$types').PageLoad} */
 export async function load({ fetch }): Promise<PageData> {
