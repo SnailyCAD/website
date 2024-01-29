@@ -3,8 +3,6 @@
   import FeaturesSection from "$lib/manager/FeaturesSection.svelte";
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
 
-  export let data: import("./+page.server").PageData;
-
   const DOCS_URL = "https://docs.snailycad.org/docs/installations/methods/manager";
   const PAGE_TITLE = "SnailyCAD Manager - Manager your SnailyCAD instance with ease.";
   const PAGE_URL = "https://snailycad.org/manager";
@@ -63,8 +61,7 @@
       <div class="my-9 flex flex-col justify-center items-center md:flex-row gap-2">
         <a
           rel="noreferrer"
-          target="_blank"
-          href={data.downloadUrl}
+          href="https://github.com/SnailyCAD-Manager/v2/releases/latest/download/snailycad-manager.exe"
           class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
         >
           <span>Download SnailyCAD Manager</span>
