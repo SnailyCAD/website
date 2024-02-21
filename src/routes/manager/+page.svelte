@@ -4,10 +4,10 @@
   import ManagerAppPreview from "../../images/features/manager_app_raw.png";
 
   const DOCS_URL = "https://docs.snailycad.org/docs/installations/methods/manager";
-  const PAGE_TITLE = "SnailyCAD Manager - Manager your SnailyCAD instance with ease.";
+  const PAGE_TITLE = "SnailyCAD Manager - Manage your SnailyCAD instance with ease.";
   const PAGE_URL = "https://snailycad.org/manager";
   const PAGE_DESC =
-    "Manage your SnailyCAD instance with ease on Windows and soon other platforms with the SnailyCAD Manager App.";
+    "Manage your SnailyCAD instance with ease on Windows Linux with SnailyCAD Manager.";
 </script>
 
 <SvelteSeo
@@ -42,7 +42,7 @@
   <link rel="canonical" href="https://snailycad.org/manager" />
   <meta
     name="description"
-    content="Manage your SnailyCAD instance with ease on Windows and soon other platforms."
+    content="Manage your SnailyCAD instance with ease on Windows and Linux."
   />
 </svelte:head>
 
@@ -55,16 +55,16 @@
         SnailyCAD Manager
       </h1>
       <p class="max-w-3xl text-center text-gray-300/90 mt-4 sm:text-[1.1rem] md:text-[1.4rem]">
-        Manage your SnailyCAD instance with ease on Windows and soon other platforms.
+        Manage your SnailyCAD instance with ease on Windows and Linux.
       </p>
 
-      <div class="my-9 flex flex-col justify-center items-center md:flex-row gap-2">
+      <div class="mt-9 mb-2 flex flex-col justify-center items-center md:flex-row gap-2">
         <a
           rel="noreferrer"
           href="https://github.com/SnailyCAD-Manager/v2/releases/latest/download/snailycad-manager.exe"
           class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
         >
-          <span>Download SnailyCAD Manager</span>
+          <span>Download v2 (Stable)</span>
           <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,6 +82,29 @@
         </a>
         <a
           rel="noreferrer"
+          href="https://github.com/SnailyCAD-Manager/v3/releases/latest/download/snailycad-manager.exe"
+          class="flex w-fit items-center gap-2 text-lg p-3 px-5 bg-tertiary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
+        >
+          <span>Download v3 (Beta)</span>
+          <span class="transition-transform group-hover:translate-x-0.5 mt-0.5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+      <div class="flex flex-row justify-center items-center mb-2">
+        <a
+          rel="noreferrer"
           target="_blank"
           href={DOCS_URL}
           class="text-lg p-3 px-5 hover:bg-secondary transition-colors hover:brightness-125 rounded-3xl shadow-sm group"
@@ -90,6 +113,11 @@
         </a>
       </div>
     </div>
+
+    <p class="w-full mb-9 px-2 md:px-0 text-center text-gray-300/90 text-sm">
+      <span class="text-white">Linux:</span> The v3 beta is also available for linux! Please view the
+      documentation (link above) for more information to install on linux.
+    </p>
 
     <div class="flex items-center justify-center w-full h-[750px] overflow-hidden mt-5">
       <div
